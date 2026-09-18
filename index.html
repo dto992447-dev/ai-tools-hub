@@ -1955,7 +1955,7 @@ const CATALOGUE = [
     ],
     "recommendedUsers": "Anyone writing literature reviews or checking claims before citation.",
     "scenario": "Free tier as a first-pass evidence check; read the underlying papers before citing.",
-    "officialWebsite": "https://consensus.app/home/pricing/",
+    "officialWebsite": "https://consensus.app",
     "lastUpdated": "Pending re-check",
     "verified": true,
     "adoption": 5,
@@ -2700,7 +2700,7 @@ const CATALOGUE = [
     ],
     "recommendedUsers": "Design students and communications teams already on Adobe tools.",
     "scenario": "Confirm institutional licensing first; use free credits for occasional figures.",
-    "officialWebsite": "https://www.adobe.com/products/firefly.html",
+    "officialWebsite": "https://firefly.adobe.com",
     "lastUpdated": "Pending re-check",
     "verified": true,
     "adoption": 6,
@@ -4877,7 +4877,7 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": false,
     "researchTool": false,
-    "officialWebsite": "https://flowiseai.com",
+    "officialWebsite": "https://github.com/FlowiseAI/Flowise",
     "documentation": "https://docs.flowiseai.com",
     "github": "https://github.com/FlowiseAI/Flowise",
     "huggingFaceUrl": "",
@@ -5476,7 +5476,7 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": true,
     "researchTool": true,
-    "officialWebsite": "https://ai.meta.com/llama/",
+    "officialWebsite": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
     "documentation": "https://llama.meta.com/docs/",
     "github": "https://github.com/meta-llama/llama3",
     "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
@@ -5895,10 +5895,10 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": true,
     "researchTool": true,
-    "officialWebsite": "https://huggingface.co/ctheist/Geneformer",
-    "documentation": "https://geneformer.readthedocs.io",
+    "officialWebsite": "https://geneformer.readthedocs.io/en/latest/",
+    "documentation": "https://geneformer.readthedocs.io/en/latest/",
     "github": "https://github.com/theislab/geneformer",
-    "huggingFaceUrl": "https://huggingface.co/ctheist/Geneformer",
+    "huggingFaceUrl": "https://huggingface.co/ctheodoris/Geneformer",
     "lastUpdated": "18 September 2026",
     "lastVerified": "18 September 2026",
     "sources": [
@@ -9228,7 +9228,7 @@ const CATALOGUE = [
     "chineseAI": true,
     "huggingFace": true,
     "researchTool": true,
-    "officialWebsite": "https://funaudiollm.github.io",
+    "officialWebsite": "https://github.com/FunAudioLLM/CosyVoice",
     "documentation": "https://github.com/FunAudioLLM/CosyVoice",
     "github": "https://github.com/FunAudioLLM/CosyVoice",
     "huggingFaceUrl": "https://huggingface.co/FunAudioLLM/CosyVoice-300M",
@@ -12507,7 +12507,7 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": false,
     "researchTool": false,
-    "officialWebsite": "https://www.iopaint.net",
+    "officialWebsite": "https://github.com/Sanster/IOPaint",
     "documentation": "https://www.iopaint.net",
     "github": "https://github.com/Sanster/IOPaint",
     "huggingFaceUrl": "",
@@ -15125,7 +15125,7 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": true,
     "researchTool": true,
-    "officialWebsite": "https://biomistral.github.io",
+    "officialWebsite": "https://huggingface.co/BioMistral/BioMistral-7B",
     "documentation": "https://biomistral.github.io",
     "github": "https://github.com/BioMistral/BioMistral",
     "huggingFaceUrl": "https://huggingface.co/BioMistral/BioMistral-7B",
@@ -15546,7 +15546,7 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": true,
     "researchTool": true,
-    "officialWebsite": "https://ai.meta.com/sam2",
+    "officialWebsite": "https://sam2.metademolab.com",
     "documentation": "https://github.com/facebookresearch/sam2",
     "github": "https://github.com/facebookresearch/sam2",
     "huggingFaceUrl": "https://huggingface.co/facebook/sam2-hiera-large",
@@ -18894,9 +18894,9 @@ const CATALOGUE = [
     "chineseAI": false,
     "huggingFace": false,
     "researchTool": true,
-    "officialWebsite": "https://github.com/ur-whitelab/chemcrow",
+    "officialWebsite": "https://github.com/ur-whitelab/chemcrow-public",
     "documentation": "https://github.com/ur-whitelab/chemcrow",
-    "github": "https://github.com/ur-whitelab/chemcrow",
+    "github": "https://github.com/ur-whitelab/chemcrow-public",
     "huggingFaceUrl": "",
     "lastUpdated": "18 September 2026",
     "lastVerified": "18 September 2026",
@@ -19568,13 +19568,27 @@ const COST_STRATEGIES = [
     const subcatPill = t.subcategory ? `<div class="card__subcat">${esc(t.subcategory)}</div>` : "";
     const freeAlt = t.bestFreeAlternative ? `<p class="kv"><b>Free Alt</b>${esc(t.bestFreeAlternative)}</p>` : "";
 
+    const linkBadges = [];
+    if (t.officialWebsite) {
+      linkBadges.push(`<a class="card__link-icon" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" title="Official Website">🌐 Web</a>`);
+    }
+    if (t.github) {
+      linkBadges.push(`<a class="card__link-icon" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer" title="GitHub Repository">📦 GitHub</a>`);
+    }
+    if (t.huggingFaceUrl) {
+      linkBadges.push(`<a class="card__link-icon" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer" title="Hugging Face Model/Space">🤗 HF</a>`);
+    }
+    if (t.documentation) {
+      linkBadges.push(`<a class="card__link-icon" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer" title="Documentation">📖 Docs</a>`);
+    }
+
     return `
       <article class="card" data-id="${t.id}">
         <div class="card__top">
           <span class="mono" style="background:${CAT_COLOR[t.category] || '#143A6B'}">${esc(t.name.slice(0, 2))}</span>
           <div style="min-width:0;flex:1">
             <div style="display:flex;justify-content:space-between;align-items:baseline;gap:6px">
-              <h3 class="card__name">${esc(t.name)}</h3>
+              <h3 class="card__name"><a href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none" title="Visit ${esc(t.name)}">${esc(t.name)}</a></h3>
               ${countryPill}
             </div>
             <p class="card__cat">${esc(catName(t.category))} &middot; ${esc(t.vendor)}</p>
@@ -19585,13 +19599,14 @@ const COST_STRATEGIES = [
         <p class="kv"><b>Best for</b>${esc(t.bestFor)}</p>
         ${freeAlt}
         <div class="badges">${badgesFor(t)}</div>
+        <div class="card__links">${linkBadges.join("")}</div>
         <div class="card__price">
           <span class="amt">${esc(t.startingPrice)}</span>
           <span class="lbl">${esc(t.pricingType)}</span>
         </div>
         <div class="card__actions">
           <button type="button" class="btn btn--primary" data-details="${t.id}">View details</button>
-          <a class="btn btn--ghost" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer">Visit tool</a>
+          <a class="btn btn--ghost" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer">Visit tool &rarr;</a>
         </div>
         <label class="cmp ${selected ? "is-on" : ""}">
           <input type="checkbox" data-compare="${t.id}" ${selected ? "checked" : ""}> Compare
@@ -19683,6 +19698,9 @@ const COST_STRATEGIES = [
     ["International Access",  t => esc(t.internationalAccess || "Globally accessible")],
     ["Student / Academic",    t => esc(t.studentPlan || "None") + " / " + esc(t.academicAccess || "None")],
     ["API Availability",      t => t.apiAvailable ? esc(t.apiPricing || "Available") : "None"],
+    ["Direct Links",          t => `<a href="${esc(t.officialWebsite)}" target="_blank" rel="noopener" style="font-weight:600;color:var(--navy-700)">🌐 Website</a>` +
+                                   (t.github ? ` &middot; <a href="${esc(t.github)}" target="_blank" rel="noopener" style="color:var(--navy-700)">📦 GitHub</a>` : "") +
+                                   (t.huggingFaceUrl ? ` &middot; <a href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener" style="color:var(--navy-700)">🤗 HF</a>` : "")],
     ["Verification Status",   t => (t.verificationStatus || (t.verified ? "Verified" : "Needs verification")) + " (" + esc(t.lastVerified || t.lastUpdated) + ")"]
   ];
 
@@ -19772,7 +19790,7 @@ const COST_STRATEGIES = [
         <span class="mono" style="background:${CAT_COLOR[t.category] || '#143A6B'}">${esc(t.name.slice(0, 2))}</span>
         <div style="flex:1">
           <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-            <h2 id="modalTitle" style="margin:0">${esc(t.name)}</h2>
+            <h2 id="modalTitle" style="margin:0"><a href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none" title="Visit ${esc(t.name)} website">${esc(t.name)} &nearr;</a></h2>
             <span class="card__country">📍 ${esc(t.country || "Global")}</span>
             <span class="badge ${t.verificationStatus === 'Verified' ? 'b-free' : 'b-warn'}">${esc(t.verificationStatus || 'Verified')}</span>
           </div>
