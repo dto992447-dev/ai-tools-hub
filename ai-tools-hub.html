@@ -344,7 +344,7 @@ select{
   box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
 }
 .discovery-bar__lbl {
-  font-family: var(--f-display);
+  font-family: var(--f-display, var(--serif));
   font-size: 13.5px;
   font-weight: 700;
   color: var(--navy-800);
@@ -359,9 +359,9 @@ select{
 }
 .dchip {
   appearance: none;
-  background: var(--paper-warm);
+  background: var(--mist);
   border: 1px solid var(--line);
-  color: var(--ink-light);
+  color: var(--ink-soft);
   padding: 6px 13px;
   border-radius: 20px;
   font-size: 12.5px;
@@ -374,8 +374,8 @@ select{
   user-select: none;
 }
 .dchip:hover {
-  background: var(--navy-50);
-  border-color: var(--navy-300);
+  background: var(--navy-50, #EEF3FA);
+  border-color: var(--navy-400);
   color: var(--navy-800);
 }
 .dchip.is-active {
@@ -405,13 +405,13 @@ select{
 .b-local { background:#E2E8F0; color:#334155; border-color:#CBD5E1; }
 .b-intl { background:#ECFDF5; color:#047857; border-color:#A7F3D0; }
 
-/* Card & Modal Enhancements */
+/* Card Enhancements */
 .card__subcat {
   font-size: 11px;
   font-weight: 600;
   color: var(--navy-600);
-  background: var(--navy-50);
-  border: 1px solid var(--navy-100);
+  background: var(--navy-50, #EEF3FA);
+  border: 1px solid var(--navy-100, #DCE3ED);
   border-radius: 4px;
   padding: 1px 6px;
   margin-top: 3px;
@@ -423,33 +423,178 @@ select{
   font-weight: 500;
   white-space: nowrap;
 }
+
+/* ============ ACADEMIC RESOURCE LINKS & MICRO-BADGES ============ */
+.card__links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 10px;
+  margin: 6px 0 2px;
+  border-top: 1px dashed var(--line);
+}
+
+.acad-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3.5px 8.5px;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.1px;
+  text-decoration: none !important;
+  color: var(--navy-800);
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  transition: all 0.16s ease-in-out;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  box-shadow: 0 1px 2px rgba(11, 37, 69, 0.03);
+}
+
+.acad-link:hover {
+  text-decoration: none !important;
+  border-color: var(--navy-600);
+  background: var(--navy-50, #EEF3FA);
+  color: var(--navy-900);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(11, 37, 69, 0.09);
+}
+
+.acad-link:active {
+  transform: translateY(0);
+}
+
+.acad-link .link-ico {
+  flex-shrink: 0;
+  opacity: 0.78;
+  transition: opacity 0.15s ease;
+}
+
+.acad-link:hover .link-ico {
+  opacity: 1;
+}
+
+.acad-link .link-arr {
+  font-size: 10px;
+  opacity: 0.55;
+  margin-left: 1px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  display: inline-block;
+}
+
+.acad-link:hover .link-arr {
+  opacity: 0.95;
+  transform: translate(1px, -1px);
+}
+
+/* Specific Academic Micro-Accents */
+.acad-link--web {
+  border-color: #CBD5E1;
+  color: var(--navy-800);
+}
+.acad-link--web:hover {
+  border-color: var(--navy-700);
+  background: #F0F4F9;
+  color: var(--navy-950, #071B36);
+}
+
+.acad-link--gh {
+  border-color: #CBD5E1;
+  color: #24292F;
+}
+.acad-link--gh:hover {
+  border-color: #24292F;
+  background: #F6F8FA;
+  color: #090D12;
+}
+
+.acad-link--hf {
+  border-color: #FDE68A;
+  background: #FFFDF7;
+  color: #92400E;
+}
+.acad-link--hf:hover {
+  border-color: #D97706;
+  background: #FEF3C7;
+  color: #78350F;
+}
+
+.acad-link--docs {
+  border-color: #CBD5E1;
+  color: var(--navy-700);
+}
+.acad-link--docs:hover {
+  border-color: var(--navy-600);
+  background: #F0F7FF;
+  color: var(--navy-900);
+}
+
+/* Modal Links Section */
+.modal-links-section {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+.modal-links-lbl {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--ink-faint);
+  margin-bottom: 9px;
+  display: block;
+}
 .modal-links {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
 }
 .modal-link-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  border-radius: 6px;
+  gap: 7px;
+  padding: 7px 14px;
+  border-radius: var(--r-sm);
+  font-family: var(--sans);
   font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  border: 1px solid var(--line);
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 1px solid var(--line-strong);
   background: var(--paper);
-  color: var(--ink);
-  transition: all 0.15s ease;
+  color: var(--navy-800);
+  transition: all 0.16s ease;
+  box-shadow: var(--shadow-1);
 }
 .modal-link-btn:hover {
-  background: var(--navy-50);
-  border-color: var(--navy-300);
-  color: var(--navy-800);
+  text-decoration: none !important;
+  border-color: var(--navy-700);
+  background: var(--navy-50, #EEF3FA);
+  color: var(--navy-950, #071B36);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-2);
 }
+.modal-link-btn .link-ico {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.modal-link-btn .link-arr {
+  font-size: 11px;
+  opacity: 0.6;
+  transition: transform 0.15s ease;
+}
+.modal-link-btn:hover .link-arr {
+  opacity: 1;
+  transform: translate(1px, -1px);
+}
+
 .callout-alt {
   background: #F0FDF4;
   border-left: 3px solid #16A34A;
@@ -468,6 +613,105 @@ select{
   font-size: 14px;
   color: #166534;
   margin: 0;
+}
+
+/* Dark Mode Harmonization */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .acad-link {
+    background: var(--mist-2);
+    border-color: var(--line-strong);
+    color: var(--ink);
+    box-shadow: none;
+  }
+  :root:not([data-theme="light"]) .acad-link:hover {
+    background: #1B2E47;
+    border-color: var(--navy-600);
+    color: #FFFFFF;
+  }
+  :root:not([data-theme="light"]) .acad-link--gh {
+    color: #E2E8F0;
+  }
+  :root:not([data-theme="light"]) .acad-link--gh:hover {
+    background: #2D3748;
+    border-color: #A0AEC0;
+    color: #FFFFFF;
+  }
+  :root:not([data-theme="light"]) .acad-link--hf {
+    background: #271E0B;
+    border-color: #5F4512;
+    color: #FCD34D;
+  }
+  :root:not([data-theme="light"]) .acad-link--hf:hover {
+    background: #3A2E12;
+    border-color: #D97706;
+    color: #FEF08A;
+  }
+  :root:not([data-theme="light"]) .acad-link--docs {
+    color: #93C5FD;
+  }
+  :root:not([data-theme="light"]) .acad-link--docs:hover {
+    background: #1E3A5F;
+    border-color: #60A5FA;
+    color: #EFF6FF;
+  }
+  :root:not([data-theme="light"]) .modal-link-btn {
+    background: var(--mist-2);
+    border-color: var(--line-strong);
+    color: var(--ink);
+  }
+  :root:not([data-theme="light"]) .modal-link-btn:hover {
+    background: #1B2E47;
+    border-color: var(--navy-600);
+    color: #FFFFFF;
+  }
+}
+
+:root[data-theme="dark"] .acad-link {
+  background: var(--mist-2);
+  border-color: var(--line-strong);
+  color: var(--ink);
+  box-shadow: none;
+}
+:root[data-theme="dark"] .acad-link:hover {
+  background: #1B2E47;
+  border-color: var(--navy-600);
+  color: #FFFFFF;
+}
+:root[data-theme="dark"] .acad-link--gh {
+  color: #E2E8F0;
+}
+:root[data-theme="dark"] .acad-link--gh:hover {
+  background: #2D3748;
+  border-color: #A0AEC0;
+  color: #FFFFFF;
+}
+:root[data-theme="dark"] .acad-link--hf {
+  background: #271E0B;
+  border-color: #5F4512;
+  color: #FCD34D;
+}
+:root[data-theme="dark"] .acad-link--hf:hover {
+  background: #3A2E12;
+  border-color: #D97706;
+  color: #FEF08A;
+}
+:root[data-theme="dark"] .acad-link--docs {
+  color: #93C5FD;
+}
+:root[data-theme="dark"] .acad-link--docs:hover {
+  background: #1E3A5F;
+  border-color: #60A5FA;
+  color: #EFF6FF;
+}
+:root[data-theme="dark"] .modal-link-btn {
+  background: var(--mist-2);
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+:root[data-theme="dark"] .modal-link-btn:hover {
+  background: #1B2E47;
+  border-color: var(--navy-600);
+  color: #FFFFFF;
 }
 
 </style>
@@ -1005,6 +1249,13 @@ const CAT_COLOR = {
   local_oss:"#2E5A88", agents:"#4A5568", image:"#7A4B12", video:"#6B2F4E",
   audio:"#155E75", presentation:"#4C3A8A", productivity:"#2C4A2E",
   education:"#8A5A0F", data:"#1F3D7A", design:"#7A2F3F", automation:"#3A4A5E"
+};
+
+const ICOS = {
+  web: `<svg class="link-ico" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>`,
+  gh: `<svg class="link-ico" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>`,
+  hf: `<svg class="link-ico" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
+  docs: `<svg class="link-ico" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`
 };
 
 const USE_CASES = [
@@ -19546,15 +19797,15 @@ const COST_STRATEGIES = [
 
   function badgesFor(t) {
     const out = [];
-    if (t.hiddenGem) out.push(['b-gem', '💎 Hidden Gem']);
-    if (t.chineseAI) out.push(['b-cn', '🇨🇳 Chinese AI']);
+    if (t.hiddenGem) out.push(['b-gem', 'Curated Gem']);
+    if (t.chineseAI) out.push(['b-cn', 'Chinese AI']);
     if (t.openSource) out.push(['b-oss', 'Open source']);
     if (t.localExecution) out.push(['b-local', 'Local AI']);
     if (t.freePlan) out.push(['b-free', 'Free plan']);
     else if (t.freeTrial) out.push(['b-low', 'Free trial']);
     else out.push(['b-paid', 'Paid only']);
     
-    if (t.huggingFace) out.push(['b-hf', '🤗 Hugging Face']);
+    if (t.huggingFace) out.push(['b-hf', 'HF Model']);
     if (hasStudent(t)) out.push(['b-edu', 'Student route']);
     if (t.internationalAccess && t.internationalAccess.toLowerCase().includes('china-focused')) {
       out.push(['b-warn', 'CN payment/phone']);
@@ -19570,16 +19821,16 @@ const COST_STRATEGIES = [
 
     const linkBadges = [];
     if (t.officialWebsite) {
-      linkBadges.push(`<a class="card__link-icon" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" title="Official Website">🌐 Web</a>`);
+      linkBadges.push(`<a class="acad-link acad-link--web" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" title="Official Website">${ICOS.web}<span>Website</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.github) {
-      linkBadges.push(`<a class="card__link-icon" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer" title="GitHub Repository">📦 GitHub</a>`);
+      linkBadges.push(`<a class="acad-link acad-link--gh" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer" title="GitHub Repository">${ICOS.gh}<span>GitHub</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.huggingFaceUrl) {
-      linkBadges.push(`<a class="card__link-icon" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer" title="Hugging Face Model/Space">🤗 HF</a>`);
+      linkBadges.push(`<a class="acad-link acad-link--hf" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer" title="Hugging Face Space &amp; Models">${ICOS.hf}<span>HF Hub</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.documentation) {
-      linkBadges.push(`<a class="card__link-icon" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer" title="Documentation">📖 Docs</a>`);
+      linkBadges.push(`<a class="acad-link acad-link--docs" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer" title="Documentation">${ICOS.docs}<span>Docs</span><span class="link-arr">&nearr;</span></a>`);
     }
 
     return `
@@ -19599,7 +19850,7 @@ const COST_STRATEGIES = [
         <p class="kv"><b>Best for</b>${esc(t.bestFor)}</p>
         ${freeAlt}
         <div class="badges">${badgesFor(t)}</div>
-        <div class="card__links">${linkBadges.join("")}</div>
+        ${linkBadges.length ? `<div class="card__links">${linkBadges.join("")}</div>` : ""}
         <div class="card__price">
           <span class="amt">${esc(t.startingPrice)}</span>
           <span class="lbl">${esc(t.pricingType)}</span>
@@ -19698,9 +19949,22 @@ const COST_STRATEGIES = [
     ["International Access",  t => esc(t.internationalAccess || "Globally accessible")],
     ["Student / Academic",    t => esc(t.studentPlan || "None") + " / " + esc(t.academicAccess || "None")],
     ["API Availability",      t => t.apiAvailable ? esc(t.apiPricing || "Available") : "None"],
-    ["Direct Links",          t => `<a href="${esc(t.officialWebsite)}" target="_blank" rel="noopener" style="font-weight:600;color:var(--navy-700)">🌐 Website</a>` +
-                                   (t.github ? ` &middot; <a href="${esc(t.github)}" target="_blank" rel="noopener" style="color:var(--navy-700)">📦 GitHub</a>` : "") +
-                                   (t.huggingFaceUrl ? ` &middot; <a href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener" style="color:var(--navy-700)">🤗 HF</a>` : "")],
+    ["Direct Links",          t => {
+      const parts = [];
+      if (t.officialWebsite) {
+        parts.push(`<a class="acad-link acad-link--web" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer" title="Official Website">${ICOS.web}<span>Website</span><span class="link-arr">&nearr;</span></a>`);
+      }
+      if (t.github) {
+        parts.push(`<a class="acad-link acad-link--gh" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer" title="GitHub Repository">${ICOS.gh}<span>GitHub</span><span class="link-arr">&nearr;</span></a>`);
+      }
+      if (t.huggingFaceUrl) {
+        parts.push(`<a class="acad-link acad-link--hf" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer" title="Hugging Face Space &amp; Models">${ICOS.hf}<span>HF Hub</span><span class="link-arr">&nearr;</span></a>`);
+      }
+      if (t.documentation) {
+        parts.push(`<a class="acad-link acad-link--docs" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer" title="Documentation">${ICOS.docs}<span>Docs</span><span class="link-arr">&nearr;</span></a>`);
+      }
+      return `<div style="display:flex;gap:5px;flex-wrap:wrap;align-items:center">${parts.join("")}</div>`;
+    }],
     ["Verification Status",   t => (t.verificationStatus || (t.verified ? "Verified" : "Needs verification")) + " (" + esc(t.lastVerified || t.lastUpdated) + ")"]
   ];
 
@@ -19773,16 +20037,16 @@ const COST_STRATEGIES = [
     // Developer & Model Links
     const extLinks = [];
     if (t.officialWebsite) {
-      extLinks.push(`<a class="modal-link-btn" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer">🌐 Official Website</a>`);
+      extLinks.push(`<a class="modal-link-btn modal-link-btn--web" href="${esc(t.officialWebsite)}" target="_blank" rel="noopener noreferrer">${ICOS.web}<span>Official Website</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.github) {
-      extLinks.push(`<a class="modal-link-btn" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer">📦 GitHub Repository</a>`);
+      extLinks.push(`<a class="modal-link-btn modal-link-btn--gh" href="${esc(t.github)}" target="_blank" rel="noopener noreferrer">${ICOS.gh}<span>GitHub Repository</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.huggingFaceUrl) {
-      extLinks.push(`<a class="modal-link-btn" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer">🤗 Hugging Face Space/Model</a>`);
+      extLinks.push(`<a class="modal-link-btn modal-link-btn--hf" href="${esc(t.huggingFaceUrl)}" target="_blank" rel="noopener noreferrer">${ICOS.hf}<span>Hugging Face Space &amp; Models</span><span class="link-arr">&nearr;</span></a>`);
     }
     if (t.documentation) {
-      extLinks.push(`<a class="modal-link-btn" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer">📖 Documentation</a>`);
+      extLinks.push(`<a class="modal-link-btn modal-link-btn--docs" href="${esc(t.documentation)}" target="_blank" rel="noopener noreferrer">${ICOS.docs}<span>Technical Documentation</span><span class="link-arr">&nearr;</span></a>`);
     }
 
     $("#modal").innerHTML = `
@@ -19878,7 +20142,11 @@ const COST_STRATEGIES = [
 
         <div class="badges" style="margin-top:12px">${badgesFor(t)}</div>
 
-        ${extLinks.length ? `<div class="modal-links">${extLinks.join("")}</div>` : ""}
+        ${extLinks.length ? `
+        <div class="modal-links-section">
+          <span class="modal-links-lbl">Scholarly &amp; Technical Resources</span>
+          <div class="modal-links">${extLinks.join("")}</div>
+        </div>` : ""}
       </div>
 
       <div class="modal__foot">
