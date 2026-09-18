@@ -55,8 +55,8 @@
   --shadow-1:0 1px 2px rgba(11,37,69,.06), 0 1px 3px rgba(11,37,69,.05);
   --shadow-2:0 4px 16px rgba(11,37,69,.09);
   --shadow-3:0 18px 48px rgba(7,27,54,.20);
-  --maxw:1220px;
-  --gutter:clamp(20px,4vw,40px);
+  --maxw:min(1820px, calc(100vw - 48px));
+  --gutter:clamp(20px, 2.5vw, 48px);
 
   --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   --serif:"Spectral",Georgia,"Times New Roman",serif;
@@ -165,13 +165,13 @@ button{font:inherit;color:inherit}
   -webkit-mask-image:radial-gradient(circle at 78% 18%,#000,transparent 62%);
   mask-image:radial-gradient(circle at 78% 18%,#000,transparent 62%);
 }
-.hero__grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:56px;padding:68px 0 60px;align-items:start}
+.hero__grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,460px);gap:56px;padding:68px 0 60px;align-items:start}
 .hero__eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:13px;color:var(--butter-300);border:1px solid rgba(255,226,155,.36);border-radius:999px;padding:5px 14px;margin-bottom:22px}
 .hero__eyebrow b{font-weight:500;color:#fff}
 .hero h1{font-size:clamp(40px,5.6vw,60px);color:#fff;letter-spacing:-.025em}
 .hero__sub{font-family:var(--serif);font-size:clamp(19px,2.2vw,23px);color:var(--butter-300);margin-top:14px;font-style:italic;font-weight:400}
 .hero__lede{margin-top:20px;max-width:62ch;color:#C8D6E9;font-size:16.5px}
-.searchwrap{margin-top:30px;display:flex;gap:10px;max-width:660px}
+.searchwrap{margin-top:30px;display:flex;gap:10px;max-width:760px}
 .searchfield{position:relative;flex:1}
 .searchfield svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);opacity:.5}
 #heroSearch{
