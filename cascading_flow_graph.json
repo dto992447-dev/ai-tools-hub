@@ -1,0 +1,2014 @@
+{
+  "root": {
+    "listId": "root",
+    "title_en": "AI Ecosystem",
+    "title_ar": "نظام الذكاء الاصطناعي",
+    "stepTag_en": "Step 1",
+    "stepTag_ar": "الخطوة 1",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Free AI",
+        "label_ar": "الذكاء الاصطناعي المجاني",
+        "filterKey": "root_free",
+        "leadsToNode": "free_tier",
+        "matchingToolsCountGlobal": 211,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "paid",
+        "icon": "💳",
+        "label_en": "Paid AI",
+        "label_ar": "الذكاء الاصطناعي المدفوع",
+        "filterKey": "root_paid",
+        "leadsToNode": "paid_payment_method",
+        "matchingToolsCountGlobal": 186,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "chinese",
+        "icon": "🇨🇳",
+        "label_en": "Chinese AI",
+        "label_ar": "الذكاء الاصطناعي الصيني",
+        "filterKey": "root_chinese",
+        "leadsToNode": "chinese_tasks",
+        "matchingToolsCountGlobal": 41,
+        "matchingToolNamesSample": [
+          "Qwen2.5-VL",
+          "DeepSeek-Coder-V2",
+          "ChatDev",
+          "MetaGPT",
+          "DeepSeek (V3 & R1)"
+        ]
+      },
+      {
+        "id": "hf",
+        "icon": "🤗",
+        "label_en": "Hugging Face",
+        "label_ar": "هاجينج فيس",
+        "filterKey": "root_hf",
+        "leadsToNode": "hf_assets",
+        "matchingToolsCountGlobal": 61,
+        "matchingToolNamesSample": [
+          "Stable Diffusion",
+          "Whisper",
+          "Hugging Face",
+          "Qwen2.5-VL",
+          "DeepSeek-Coder-V2"
+        ]
+      },
+      {
+        "id": "oss",
+        "icon": "🔓",
+        "label_en": "Open Source",
+        "label_ar": "المصدر المفتوح",
+        "filterKey": "root_oss",
+        "leadsToNode": "oss_format",
+        "matchingToolsCountGlobal": 144,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      },
+      {
+        "id": "academic",
+        "icon": "🎓",
+        "label_en": "Academic / Research",
+        "label_ar": "البحث الأكاديمي",
+        "filterKey": "root_academic",
+        "leadsToNode": "academic_pipeline",
+        "matchingToolsCountGlobal": 121,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Grammarly",
+          "DeepL"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Local AI (Offline)",
+        "label_ar": "تشغيل محلي بدون إنترنت",
+        "filterKey": "root_local",
+        "leadsToNode": "local_frameworks",
+        "matchingToolsCountGlobal": 101,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      }
+    ]
+  },
+  "paid_payment_method": {
+    "listId": "paid_payment_method",
+    "title_en": "Payment Method",
+    "title_ar": "وسيلة الدفع",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "card",
+        "icon": "💳",
+        "label_en": "Credit / Debit Card",
+        "label_ar": "بطاقة دفع بنكية (فيزا / ماستركارد)",
+        "filterKey": "paid_card",
+        "leadsToNode": "paid_card_compat",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "usd",
+        "icon": "💵",
+        "label_en": "USD / Foreign Currency",
+        "label_ar": "دفع دولي بالدولار الأمريكي",
+        "filterKey": "paid_usd",
+        "leadsToNode": "paid_card_compat",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "api",
+        "icon": "⚡",
+        "label_en": "Pay-As-You-Go API",
+        "label_ar": "دفع حسب الاستخدام البرمجي (API)",
+        "filterKey": "paid_api",
+        "leadsToNode": "paid_card_compat",
+        "matchingToolsCountGlobal": 170,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "DeepL"
+        ]
+      },
+      {
+        "id": "student",
+        "icon": "🎓",
+        "label_en": "Student / Academic Route",
+        "label_ar": "مسار الخصم الجامعي والتعليمي",
+        "filterKey": "paid_student",
+        "leadsToNode": "paid_task_selection",
+        "matchingToolsCountGlobal": 201,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "QuillBot"
+        ]
+      }
+    ]
+  },
+  "paid_card_compat": {
+    "listId": "paid_card_compat",
+    "title_en": "Card Compatibility",
+    "title_ar": "توافق البطاقات في مصر",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "eg_visa",
+        "icon": "🇪🇬",
+        "label_en": "Egyptian Visa (Verified)",
+        "label_ar": "🇪🇬 فيزا مصرية معتمدة (ائتمان)",
+        "filterKey": "paid_egyptian_visa",
+        "leadsToNode": "paid_task_selection_eg",
+        "matchingToolsCountGlobal": 64,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "intl_visa",
+        "icon": "🌐",
+        "label_en": "International Visa / Card",
+        "label_ar": "بطاقات فيزا وماستركارد دولية",
+        "filterKey": "paid_card",
+        "leadsToNode": "paid_task_selection",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "all_paid",
+        "icon": "💳",
+        "label_en": "All Commercial AI Tools",
+        "label_ar": "جميع الأدوات المدفوعة والتجارية",
+        "filterKey": "paid_all_commercial",
+        "leadsToNode": "paid_task_selection",
+        "matchingToolsCountGlobal": 186,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "paid_task_selection": {
+    "listId": "paid_task_selection",
+    "title_en": "Workflow Task",
+    "title_ar": "المهمة المطلوبة",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Coding & Dev Agents",
+        "label_ar": "البرمجة والأكواد البرمجية",
+        "filterKey": "task_coding",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 97,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "research",
+        "icon": "🔬",
+        "label_en": "Research & Literature",
+        "label_ar": "البحث ومراجعة الأدبيات",
+        "filterKey": "task_research",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 120,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "DeepL",
+          "QuillBot"
+        ]
+      },
+      {
+        "id": "writing",
+        "icon": "✍️",
+        "label_en": "Writing & Reasoning",
+        "label_ar": "الكتابة والتحرير الأكاديمي",
+        "filterKey": "task_writing",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 15,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "image",
+        "icon": "🎨",
+        "label_en": "Image Generation",
+        "label_ar": "توليد وتصميم الصور",
+        "filterKey": "task_image",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 20,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Civitai"
+        ]
+      },
+      {
+        "id": "video",
+        "icon": "🎬",
+        "label_en": "Video & Motion",
+        "label_ar": "توليد الفيديو والحركة",
+        "filterKey": "task_video",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 12,
+        "matchingToolNamesSample": [
+          "Runway",
+          "Synthesia",
+          "Descript",
+          "Wan 2.1 (Alibaba)",
+          "Kling AI"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Audio & Voice",
+        "label_ar": "الصوتيات وتحويل الكلام",
+        "filterKey": "task_audio",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      },
+      {
+        "id": "agents",
+        "icon": "🤖",
+        "label_en": "Autonomous Agents",
+        "label_ar": "الوكلاء والأتمتة الذاتية",
+        "filterKey": "task_agents",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 23,
+        "matchingToolNamesSample": [
+          "n8n",
+          "Zapier",
+          "Make",
+          "browser-use",
+          "CrewAI"
+        ]
+      }
+    ]
+  },
+  "paid_task_selection_eg": {
+    "listId": "paid_task_selection_eg",
+    "title_en": "Verified Egyptian Visa Task",
+    "title_ar": "المهمة (معتمدة بفيزا مصرية)",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Coding & Dev Agents",
+        "label_ar": "البرمجة (Cursor, Replit, v0)",
+        "filterKey": "task_coding",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 97,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "research",
+        "icon": "🔬",
+        "label_en": "Research & Literature",
+        "label_ar": "البحث (Perplexity, Elicit, SciSpace)",
+        "filterKey": "task_research",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 120,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "DeepL",
+          "QuillBot"
+        ]
+      },
+      {
+        "id": "writing",
+        "icon": "✍️",
+        "label_en": "Writing & Reasoning",
+        "label_ar": "الكتابة (ChatGPT, Claude, Grammarly)",
+        "filterKey": "task_writing",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 15,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "image",
+        "icon": "🎨",
+        "label_en": "Image Generation",
+        "label_ar": "الصور (Midjourney, Firefly, Leonardo)",
+        "filterKey": "task_image",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 20,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Civitai"
+        ]
+      },
+      {
+        "id": "video",
+        "icon": "🎬",
+        "label_en": "Video Generation",
+        "label_ar": "الفيديو (Runway, Kling, Descript)",
+        "filterKey": "task_video",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 12,
+        "matchingToolNamesSample": [
+          "Runway",
+          "Synthesia",
+          "Descript",
+          "Wan 2.1 (Alibaba)",
+          "Kling AI"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Audio & Voice",
+        "label_ar": "الصوت (ElevenLabs, Suno, Udio)",
+        "filterKey": "task_audio",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      },
+      {
+        "id": "agents",
+        "icon": "🤖",
+        "label_en": "Autonomous Agents",
+        "label_ar": "الوكلاء (v0, Lovable, Bolt)",
+        "filterKey": "task_agents",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 23,
+        "matchingToolNamesSample": [
+          "n8n",
+          "Zapier",
+          "Make",
+          "browser-use",
+          "CrewAI"
+        ]
+      }
+    ]
+  },
+  "free_tier": {
+    "listId": "free_tier",
+    "title_en": "Free Tier Type",
+    "title_ar": "نوع الخطة المجانية",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "free_all",
+        "icon": "✨",
+        "label_en": "Completely Free",
+        "label_ar": "مجاني بالكامل وبدون قيود",
+        "filterKey": "free_all",
+        "leadsToNode": "task_selection",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "free_tier_limited",
+        "icon": "⏳",
+        "label_en": "Free Tier Available",
+        "label_ar": "خطة مجانية دائمة",
+        "filterKey": "free_tier_limited",
+        "leadsToNode": "task_selection",
+        "matchingToolsCountGlobal": 211,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "free_student",
+        "icon": "🎓",
+        "label_en": "Free for Students",
+        "label_ar": "مجاني للطلاب والجامعات",
+        "filterKey": "free_student",
+        "leadsToNode": "task_selection",
+        "matchingToolsCountGlobal": 215,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "free_oss",
+        "icon": "🔓",
+        "label_en": "Open Source Weights",
+        "label_ar": "أوزان ونماذج مفتوحة",
+        "filterKey": "free_oss",
+        "leadsToNode": "task_selection",
+        "matchingToolsCountGlobal": 143,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      },
+      {
+        "id": "free_trial",
+        "icon": "⚡",
+        "label_en": "Free Trial / Credits",
+        "label_ar": "أرصدة وتجربة مجانية",
+        "filterKey": "free_trial",
+        "leadsToNode": "task_selection",
+        "matchingToolsCountGlobal": 214,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "chinese_tasks": {
+    "listId": "chinese_tasks",
+    "title_en": "Chinese AI",
+    "title_ar": "الذكاء الاصطناعي الصيني",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Coding",
+        "label_ar": "البرمجة والأكواد",
+        "filterKey": "cn_coding",
+        "leadsToNode": "chinese_coding_pricing",
+        "matchingToolsCountGlobal": 97,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "research",
+        "icon": "🔬",
+        "label_en": "Research",
+        "label_ar": "البحث والمحاكمة",
+        "filterKey": "cn_research",
+        "leadsToNode": "chinese_pricing",
+        "matchingToolsCountGlobal": 127,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "DeepL",
+          "QuillBot"
+        ]
+      },
+      {
+        "id": "image",
+        "icon": "🎨",
+        "label_en": "Image",
+        "label_ar": "توليد الصور",
+        "filterKey": "cn_image",
+        "leadsToNode": "chinese_pricing",
+        "matchingToolsCountGlobal": 20,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Civitai"
+        ]
+      },
+      {
+        "id": "video",
+        "icon": "🎬",
+        "label_en": "Video",
+        "label_ar": "توليد الفيديو",
+        "filterKey": "cn_video",
+        "leadsToNode": "chinese_pricing",
+        "matchingToolsCountGlobal": 12,
+        "matchingToolNamesSample": [
+          "Runway",
+          "Synthesia",
+          "Descript",
+          "Wan 2.1 (Alibaba)",
+          "Kling AI"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Audio",
+        "label_ar": "الصوتيات والنطق",
+        "filterKey": "cn_audio",
+        "leadsToNode": "chinese_pricing",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      },
+      {
+        "id": "agents",
+        "icon": "🤖",
+        "label_en": "Agents",
+        "label_ar": "الوكلاء والأتمتة",
+        "filterKey": "cn_agents",
+        "leadsToNode": "chinese_pricing",
+        "matchingToolsCountGlobal": 23,
+        "matchingToolNamesSample": [
+          "n8n",
+          "Zapier",
+          "Make",
+          "browser-use",
+          "CrewAI"
+        ]
+      }
+    ]
+  },
+  "chinese_coding_pricing": {
+    "listId": "chinese_coding_pricing",
+    "title_en": "Pricing Model",
+    "title_ar": "نموذج التسعير",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Free",
+        "label_ar": "مجاني",
+        "filterKey": "free_all",
+        "leadsToNode": "chinese_env",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "paid",
+        "icon": "💳",
+        "label_en": "Paid",
+        "label_ar": "مدفوع",
+        "filterKey": "root_paid",
+        "leadsToNode": "payment_methods_cn",
+        "matchingToolsCountGlobal": 186,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "oss",
+        "icon": "🔓",
+        "label_en": "Open Source",
+        "label_ar": "مفتوح المصدر",
+        "filterKey": "oss",
+        "leadsToNode": "chinese_env",
+        "matchingToolsCountGlobal": 143,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      },
+      {
+        "id": "api",
+        "icon": "⚡",
+        "label_en": "API",
+        "label_ar": "واجهة برمجية API",
+        "filterKey": "api",
+        "leadsToNode": "payment_methods_cn",
+        "matchingToolsCountGlobal": 170,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "DeepL"
+        ]
+      }
+    ]
+  },
+  "chinese_pricing": {
+    "listId": "chinese_pricing",
+    "title_en": "Pricing Model",
+    "title_ar": "نموذج التسعير",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Free / Open Weights",
+        "label_ar": "مجاني / أوزان مفتوحة",
+        "filterKey": "free_all",
+        "leadsToNode": "chinese_env",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "paid",
+        "icon": "💳",
+        "label_en": "Paid Subscription",
+        "label_ar": "اشتراك تجاري مدفوع",
+        "filterKey": "root_paid",
+        "leadsToNode": "payment_methods_cn",
+        "matchingToolsCountGlobal": 186,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "payment_methods_cn": {
+    "listId": "payment_methods_cn",
+    "title_en": "Payment Method",
+    "title_ar": "طريقة الدفع",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "card",
+        "icon": "💳",
+        "label_en": "Credit / Debit Card",
+        "label_ar": "بطاقة دفع بنكية (فيزا / ماستركارد)",
+        "filterKey": "paid_card",
+        "leadsToNode": "card_compat_cn",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "usd",
+        "icon": "💵",
+        "label_en": "USD / Foreign Currency",
+        "label_ar": "دفع دولي بالدولار الأمريكي",
+        "filterKey": "paid_usd",
+        "leadsToNode": "card_compat_cn",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "domestic",
+        "icon": "🇨🇳",
+        "label_en": "Alipay / WeChat Pay",
+        "label_ar": "محافظ صينية محلية (Alipay/WeChat)",
+        "filterKey": "paid_domestic_cn",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 8,
+        "matchingToolNamesSample": [
+          "Kimi (Moonshot AI)",
+          "Metaso (秘塔AI搜索)",
+          "Baichuan (Baichuan 4)",
+          "Doubao (ByteDance)",
+          "StepFun (Step-2 / Step-1X)"
+        ]
+      }
+    ]
+  },
+  "card_compat_cn": {
+    "listId": "card_compat_cn",
+    "title_en": "Card Compatibility",
+    "title_ar": "توافق البطاقات",
+    "stepTag_en": "Step 5",
+    "stepTag_ar": "الخطوة 5",
+    "items": [
+      {
+        "id": "eg_visa",
+        "icon": "🇪🇬",
+        "label_en": "Egyptian Visa (Verified)",
+        "label_ar": "🇪🇬 فيزا مصرية معتمدة (Kling, Tripo, SiliconFlow)",
+        "filterKey": "paid_egyptian_visa",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 64,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "intl_card",
+        "icon": "🌐",
+        "label_en": "International Visa / Mastercard",
+        "label_ar": "بطاقات دولية عامة",
+        "filterKey": "paid_card",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "domestic_only",
+        "icon": "❌",
+        "label_en": "Domestic Mainland Only",
+        "label_ar": "حسابات داخل الصين فقط (بدون فيزا)",
+        "filterKey": "paid_domestic_cn",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 8,
+        "matchingToolNamesSample": [
+          "Kimi (Moonshot AI)",
+          "Metaso (秘塔AI搜索)",
+          "Baichuan (Baichuan 4)",
+          "Doubao (ByteDance)",
+          "StepFun (Step-2 / Step-1X)"
+        ]
+      }
+    ]
+  },
+  "chinese_env": {
+    "listId": "chinese_env",
+    "title_en": "Free Access",
+    "title_ar": "طريقة الوصول المجاني",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "online",
+        "icon": "🌐",
+        "label_en": "Online / Web",
+        "label_ar": "أونلاين / عبر الويب",
+        "filterKey": "online",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Download / Local",
+        "label_ar": "تنزيل / تشغيل محلي",
+        "filterKey": "local",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 151,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "hf",
+        "icon": "🤗",
+        "label_en": "Hugging Face",
+        "label_ar": "منصة هاجينج فيس",
+        "filterKey": "hf",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 61,
+        "matchingToolNamesSample": [
+          "Stable Diffusion",
+          "Whisper",
+          "Hugging Face",
+          "Qwen2.5-VL",
+          "DeepSeek-Coder-V2"
+        ]
+      },
+      {
+        "id": "oss",
+        "icon": "🔓",
+        "label_en": "Open Source (GitHub)",
+        "label_ar": "مفتوح المصدر (GitHub)",
+        "filterKey": "oss",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 143,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      }
+    ]
+  },
+  "hf_assets": {
+    "listId": "hf_assets",
+    "title_en": "Hugging Face",
+    "title_ar": "هاجينج فيس",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "models",
+        "icon": "🧠",
+        "label_en": "Pretrained Models",
+        "label_ar": "أوزان النماذج المدربة",
+        "filterKey": "hf_models",
+        "leadsToNode": "hf_tasks",
+        "matchingToolsCountGlobal": 142,
+        "matchingToolNamesSample": [
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n",
+          "Hugging Face"
+        ]
+      },
+      {
+        "id": "spaces",
+        "icon": "🚀",
+        "label_en": "Interactive Spaces",
+        "label_ar": "تطبيقات سبيسز التفاعلية",
+        "filterKey": "hf_spaces",
+        "leadsToNode": "hf_tasks",
+        "matchingToolsCountGlobal": 211,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "datasets",
+        "icon": "📚",
+        "label_en": "Academic Datasets",
+        "label_ar": "مجموعات البيانات الأكاديمية",
+        "filterKey": "hf_datasets",
+        "leadsToNode": "hf_tasks",
+        "matchingToolsCountGlobal": 56,
+        "matchingToolNamesSample": [
+          "Perplexity",
+          "NotebookLM",
+          "Elicit",
+          "Consensus",
+          "Semantic Scholar"
+        ]
+      }
+    ]
+  },
+  "hf_tasks": {
+    "listId": "hf_tasks",
+    "title_en": "HF Domain",
+    "title_ar": "مجال الاستخدام",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "science",
+        "icon": "🔬",
+        "label_en": "Science & Medical",
+        "label_ar": "العلوم والطب الحيوي",
+        "filterKey": "hf_science",
+        "leadsToNode": "hf_env",
+        "matchingToolsCountGlobal": 56,
+        "matchingToolNamesSample": [
+          "Perplexity",
+          "NotebookLM",
+          "Elicit",
+          "Consensus",
+          "Semantic Scholar"
+        ]
+      },
+      {
+        "id": "code",
+        "icon": "💻",
+        "label_en": "Coding & Dev",
+        "label_ar": "البرمجة ومساعدات الكود",
+        "filterKey": "hf_code",
+        "leadsToNode": "hf_env",
+        "matchingToolsCountGlobal": 94,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "vision",
+        "icon": "🎨",
+        "label_en": "Vision & Diffusion",
+        "label_ar": "الرؤية الحاسوبية والتشتت",
+        "filterKey": "hf_vision",
+        "leadsToNode": "hf_env",
+        "matchingToolsCountGlobal": 30,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Runway"
+        ]
+      },
+      {
+        "id": "speech",
+        "icon": "🎙️",
+        "label_en": "Speech & NLP",
+        "label_ar": "الصوتيات واللغات",
+        "filterKey": "hf_speech",
+        "leadsToNode": "hf_env",
+        "matchingToolsCountGlobal": 28,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Grammarly",
+          "DeepL"
+        ]
+      }
+    ]
+  },
+  "hf_env": {
+    "listId": "hf_env",
+    "title_en": "HF Access",
+    "title_ar": "طريقة الوصول",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Completely Free",
+        "label_ar": "مجاني بالكامل",
+        "filterKey": "free_all",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Download Weights (Local)",
+        "label_ar": "تنزيل الأوزان محلياً",
+        "filterKey": "local",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 151,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "web",
+        "icon": "🌐",
+        "label_en": "Run in Browser",
+        "label_ar": "تشغيل عبر المتصفح",
+        "filterKey": "online",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "oss_format": {
+    "listId": "oss_format",
+    "title_en": "Open Source",
+    "title_ar": "المصدر المفتوح",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "desktop",
+        "icon": "💻",
+        "label_en": "Local Desktop Apps",
+        "label_ar": "برامج تشغيل سطح المكتب",
+        "filterKey": "oss_desktop",
+        "leadsToNode": "oss_tasks",
+        "matchingToolsCountGlobal": 30,
+        "matchingToolNamesSample": [
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor",
+          "Descript"
+        ]
+      },
+      {
+        "id": "weights",
+        "icon": "🧠",
+        "label_en": "Open Weights Checkpoints",
+        "label_ar": "أوزان النماذج المفتوحة",
+        "filterKey": "oss_weights",
+        "leadsToNode": "oss_tasks",
+        "matchingToolsCountGlobal": 141,
+        "matchingToolNamesSample": [
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n",
+          "Hugging Face"
+        ]
+      },
+      {
+        "id": "frameworks",
+        "icon": "🛠️",
+        "label_en": "Frameworks & Agents",
+        "label_ar": "أطر عمل الوكلاء والبرمجة",
+        "filterKey": "oss_frameworks",
+        "leadsToNode": "oss_tasks",
+        "matchingToolsCountGlobal": 50,
+        "matchingToolNamesSample": [
+          "GitHub Copilot",
+          "Cursor",
+          "Claude Code",
+          "Replit",
+          "n8n"
+        ]
+      },
+      {
+        "id": "selfhost",
+        "icon": "🖥️",
+        "label_en": "Self-Hosted Solutions",
+        "label_ar": "الاستضافة الذاتية",
+        "filterKey": "oss_selfhost",
+        "leadsToNode": "oss_tasks",
+        "matchingToolsCountGlobal": 141,
+        "matchingToolNamesSample": [
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n",
+          "Hugging Face"
+        ]
+      }
+    ]
+  },
+  "oss_tasks": {
+    "listId": "oss_tasks",
+    "title_en": "OSS Tasks",
+    "title_ar": "المهمة المستهدفة",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Coding & Dev Agents",
+        "label_ar": "البرمجة والأتمتة",
+        "filterKey": "task_coding",
+        "leadsToNode": "oss_env",
+        "matchingToolsCountGlobal": 97,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "research",
+        "icon": "🔬",
+        "label_en": "Research & Docs",
+        "label_ar": "البحث وتحليل المستندات",
+        "filterKey": "task_research",
+        "leadsToNode": "oss_env",
+        "matchingToolsCountGlobal": 120,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "DeepL",
+          "QuillBot"
+        ]
+      },
+      {
+        "id": "image",
+        "icon": "🎨",
+        "label_en": "Image Generation",
+        "label_ar": "توليد وتعديل الصور",
+        "filterKey": "task_image",
+        "leadsToNode": "oss_env",
+        "matchingToolsCountGlobal": 20,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Civitai"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Audio & Speech",
+        "label_ar": "الصوت وتحويل الكلام",
+        "filterKey": "task_audio",
+        "leadsToNode": "oss_env",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      }
+    ]
+  },
+  "oss_env": {
+    "listId": "oss_env",
+    "title_en": "Deployment",
+    "title_ar": "بيئة الاستخدام",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Permissive (MIT/Apache)",
+        "label_ar": "تراخيص حرة ومفتوحة",
+        "filterKey": "free_all",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Local Desktop (Offline)",
+        "label_ar": "محلي على جهازك",
+        "filterKey": "local",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 151,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "api",
+        "icon": "⚡",
+        "label_en": "Local API Server",
+        "label_ar": "خادم API محلي",
+        "filterKey": "api",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 170,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "DeepL"
+        ]
+      }
+    ]
+  },
+  "academic_pipeline": {
+    "listId": "academic_pipeline",
+    "title_en": "Academic Phase",
+    "title_ar": "المرحلة البحثية",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "lit",
+        "icon": "📚",
+        "label_en": "Literature Review",
+        "label_ar": "مراجعة الأدبيات والبحث",
+        "filterKey": "res_lit",
+        "leadsToNode": "academic_access",
+        "matchingToolsCountGlobal": 52,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "QuillBot",
+          "Perplexity"
+        ]
+      },
+      {
+        "id": "graph",
+        "icon": "🕸️",
+        "label_en": "Citation Networks",
+        "label_ar": "شبكات وخرائط الاستشهادات",
+        "filterKey": "res_graph",
+        "leadsToNode": "academic_access",
+        "matchingToolsCountGlobal": 23,
+        "matchingToolNamesSample": [
+          "Connected Papers",
+          "Canva",
+          "LangGraph",
+          "BioRender",
+          "OpenRead"
+        ]
+      },
+      {
+        "id": "write",
+        "icon": "📝",
+        "label_en": "Manuscript Drafting & LaTeX",
+        "label_ar": "صياغة الأوراق ولاتخ",
+        "filterKey": "res_write",
+        "leadsToNode": "academic_access",
+        "matchingToolsCountGlobal": 15,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "bio",
+        "icon": "🧬",
+        "label_en": "Bioinformatics & Data",
+        "label_ar": "البيولوجيا الحسابية والبيانات",
+        "filterKey": "res_bio",
+        "leadsToNode": "academic_access",
+        "matchingToolsCountGlobal": 13,
+        "matchingToolNamesSample": [
+          "Hugging Face",
+          "Google Colab",
+          "Julius AI",
+          "BioGPT",
+          "Europe PMC"
+        ]
+      }
+    ]
+  },
+  "academic_access": {
+    "listId": "academic_access",
+    "title_en": "Pricing & License",
+    "title_ar": "الترخيص والتكلفة",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "free",
+        "icon": "🎁",
+        "label_en": "Free Academic Tier",
+        "label_ar": "خطة أكاديمية مجانية",
+        "filterKey": "free_all",
+        "leadsToNode": "academic_env",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "student",
+        "icon": "🎓",
+        "label_en": "Free for Students (.edu)",
+        "label_ar": "مجاني بحساب الجامعة",
+        "filterKey": "free_student",
+        "leadsToNode": "academic_env",
+        "matchingToolsCountGlobal": 215,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "paid",
+        "icon": "💳",
+        "label_en": "Pro Subscription",
+        "label_ar": "اشتراك احترافي",
+        "filterKey": "root_paid",
+        "leadsToNode": "payment_methods_academic",
+        "matchingToolsCountGlobal": 186,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "payment_methods_academic": {
+    "listId": "payment_methods_academic",
+    "title_en": "Payment Route",
+    "title_ar": "وسيلة الدفع الأكاديمية",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "card",
+        "icon": "💳",
+        "label_en": "Credit Card (USD)",
+        "label_ar": "بطاقة دفع ائتمانية بالدولار",
+        "filterKey": "paid_card",
+        "leadsToNode": "card_compat_academic",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "invoice",
+        "icon": "🏛️",
+        "label_en": "Institutional License",
+        "label_ar": "ترخيص واشتراك مؤسسي",
+        "filterKey": "paid_student",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 201,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "QuillBot"
+        ]
+      }
+    ]
+  },
+  "card_compat_academic": {
+    "listId": "card_compat_academic",
+    "title_en": "Card Compatibility",
+    "title_ar": "توافق البطاقات في مصر",
+    "stepTag_en": "Step 5",
+    "stepTag_ar": "الخطوة 5",
+    "items": [
+      {
+        "id": "eg_visa",
+        "icon": "🇪🇬",
+        "label_en": "Egyptian Visa (Verified)",
+        "label_ar": "🇪🇬 فيزا مصرية معتمدة (Overleaf, SciSpace, Consensus)",
+        "filterKey": "paid_egyptian_visa",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 64,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "intl_card",
+        "icon": "🌐",
+        "label_en": "International Visa / Card",
+        "label_ar": "بطاقات دولية عامة",
+        "filterKey": "paid_card",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 67,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "academic_env": {
+    "listId": "academic_env",
+    "title_en": "Platform",
+    "title_ar": "المنصة",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "web",
+        "icon": "🌐",
+        "label_en": "Online / Web Platform",
+        "label_ar": "منصة سحابية عبر المتصفح",
+        "filterKey": "online",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Local & Private (Lab Data)",
+        "label_ar": "محلي وخاص (سرية البيانات)",
+        "filterKey": "local",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 151,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      }
+    ]
+  },
+  "local_frameworks": {
+    "listId": "local_frameworks",
+    "title_en": "Local AI Tools",
+    "title_ar": "أدوات التشغيل المحلي",
+    "stepTag_en": "Step 2",
+    "stepTag_ar": "الخطوة 2",
+    "items": [
+      {
+        "id": "gui",
+        "icon": "🖥️",
+        "label_en": "Desktop GUI (Ollama / Jan)",
+        "label_ar": "برامج سطح المكتب (أولاما، يان)",
+        "filterKey": "local_gui",
+        "leadsToNode": "local_tasks",
+        "matchingToolsCountGlobal": 32,
+        "matchingToolNamesSample": [
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor",
+          "Descript"
+        ]
+      },
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Local Coding Agents",
+        "label_ar": "مساعدات البرمجة المحلية",
+        "filterKey": "local_coding",
+        "leadsToNode": "local_tasks",
+        "matchingToolsCountGlobal": 94,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "vision",
+        "icon": "🎨",
+        "label_en": "Local Vision & Diffusion",
+        "label_ar": "توليد الصور والرؤية محلياً",
+        "filterKey": "local_vision",
+        "leadsToNode": "local_tasks",
+        "matchingToolsCountGlobal": 30,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Runway"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Local Voice / Whisper",
+        "label_ar": "الصوت وتحويل الكلام محلياً",
+        "filterKey": "local_audio",
+        "leadsToNode": "local_tasks",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      }
+    ]
+  },
+  "local_tasks": {
+    "listId": "local_tasks",
+    "title_en": "Operating System",
+    "title_ar": "نظام التشغيل",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "mac",
+        "icon": "🍎",
+        "label_en": "Apple Silicon (Mac M-series)",
+        "label_ar": "أجهزة ماك (Apple Silicon)",
+        "filterKey": "local_mac",
+        "leadsToNode": "local_quant",
+        "matchingToolsCountGlobal": 215,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "win",
+        "icon": "🪟",
+        "label_en": "Windows / NVIDIA CUDA",
+        "label_ar": "ويندوز وكروت إنفيديا",
+        "filterKey": "local_win",
+        "leadsToNode": "local_quant",
+        "matchingToolsCountGlobal": 215,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "linux",
+        "icon": "🐧",
+        "label_en": "Linux / Server",
+        "label_ar": "لينكس والخوادم",
+        "filterKey": "local_linux",
+        "leadsToNode": "local_quant",
+        "matchingToolsCountGlobal": 215,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      }
+    ]
+  },
+  "local_quant": {
+    "listId": "local_quant",
+    "title_en": "Model Precision",
+    "title_ar": "حجم ودقة النموذج",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "quant",
+        "icon": "⚡",
+        "label_en": "GGUF Quantized (Low VRAM)",
+        "label_ar": "GGUF خفيف (ذاكرة استهلاكية)",
+        "filterKey": "free_all",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "full",
+        "icon": "📦",
+        "label_en": "Full Precision / FP16",
+        "label_ar": "دقة كاملة (بطاقات احترافية)",
+        "filterKey": "oss",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 143,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      }
+    ]
+  },
+  "task_selection": {
+    "listId": "task_selection",
+    "title_en": "Primary Task",
+    "title_ar": "المهمة الأساسية",
+    "stepTag_en": "Step 3",
+    "stepTag_ar": "الخطوة 3",
+    "items": [
+      {
+        "id": "coding",
+        "icon": "💻",
+        "label_en": "Coding & Dev Agents",
+        "label_ar": "البرمجة ومساعدات التطوير",
+        "filterKey": "task_coding",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 97,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "GitHub Copilot",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "research",
+        "icon": "🔬",
+        "label_en": "Research & Literature",
+        "label_ar": "البحث ومراجعة الأدبيات",
+        "filterKey": "task_research",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 120,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "DeepL",
+          "QuillBot"
+        ]
+      },
+      {
+        "id": "writing",
+        "icon": "✍️",
+        "label_en": "Writing & Reasoning",
+        "label_ar": "الكتابة والمحاكمة المنطقية",
+        "filterKey": "task_writing",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 15,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "image",
+        "icon": "🎨",
+        "label_en": "Image & Visuals",
+        "label_ar": "الصور والرسوم العلمية",
+        "filterKey": "task_image",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 20,
+        "matchingToolNamesSample": [
+          "Midjourney",
+          "Adobe Firefly",
+          "Stable Diffusion",
+          "Leonardo AI",
+          "Civitai"
+        ]
+      },
+      {
+        "id": "video",
+        "icon": "🎬",
+        "label_en": "Video & Motion",
+        "label_ar": "الفيديو والحركة",
+        "filterKey": "task_video",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 12,
+        "matchingToolNamesSample": [
+          "Runway",
+          "Synthesia",
+          "Descript",
+          "Wan 2.1 (Alibaba)",
+          "Kling AI"
+        ]
+      },
+      {
+        "id": "audio",
+        "icon": "🎙️",
+        "label_en": "Audio & Speech",
+        "label_ar": "الصوت والكلام",
+        "filterKey": "task_audio",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 19,
+        "matchingToolNamesSample": [
+          "ElevenLabs",
+          "Whisper",
+          "Otter.ai",
+          "Suno AI",
+          "Udio"
+        ]
+      },
+      {
+        "id": "data",
+        "icon": "📊",
+        "label_en": "Data & Computation",
+        "label_ar": "تحليل البيانات والحسابات",
+        "filterKey": "task_data",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 12,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Hugging Face",
+          "Google Colab"
+        ]
+      },
+      {
+        "id": "agents",
+        "icon": "🤖",
+        "label_en": "Autonomous Agents",
+        "label_ar": "الوكلاء والأتمتة",
+        "filterKey": "task_agents",
+        "leadsToNode": "task_env",
+        "matchingToolsCountGlobal": 23,
+        "matchingToolNamesSample": [
+          "n8n",
+          "Zapier",
+          "Make",
+          "browser-use",
+          "CrewAI"
+        ]
+      }
+    ]
+  },
+  "task_env": {
+    "listId": "task_env",
+    "title_en": "Environment",
+    "title_ar": "بيئة الاستخدام",
+    "stepTag_en": "Step 4",
+    "stepTag_ar": "الخطوة 4",
+    "items": [
+      {
+        "id": "online",
+        "icon": "🌐",
+        "label_en": "Online / Web Browser",
+        "label_ar": "عبر المتصفح (سحابي)",
+        "filterKey": "online",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 209,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "Grammarly"
+        ]
+      },
+      {
+        "id": "local",
+        "icon": "💻",
+        "label_en": "Download / Local Desktop",
+        "label_ar": "تنزيل محلي على الجهاز",
+        "filterKey": "local",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 151,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Grammarly",
+          "DeepL",
+          "Zotero",
+          "Cursor"
+        ]
+      },
+      {
+        "id": "oss",
+        "icon": "🔓",
+        "label_en": "Open Source (GitHub)",
+        "label_ar": "كود مفتوح المصدر",
+        "filterKey": "oss",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 143,
+        "matchingToolNamesSample": [
+          "Semantic Scholar",
+          "Zotero",
+          "Stable Diffusion",
+          "Whisper",
+          "n8n"
+        ]
+      },
+      {
+        "id": "api",
+        "icon": "⚡",
+        "label_en": "Free Developer API",
+        "label_ar": "واجهة برمجية مجانية",
+        "filterKey": "api",
+        "leadsToNode": "TERMINAL_RESULTS",
+        "matchingToolsCountGlobal": 170,
+        "matchingToolNamesSample": [
+          "ChatGPT",
+          "Claude",
+          "Google Gemini",
+          "Microsoft Copilot",
+          "DeepL"
+        ]
+      }
+    ]
+  }
+}

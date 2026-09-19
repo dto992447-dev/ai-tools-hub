@@ -1,0 +1,216 @@
+﻿id,tool_name,vendor,previous_category,new_task_category,pricing_model,payment_methods,accepts_egyptian_visa
+chatgpt,ChatGPT,OpenAI,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+claude,Claude,Anthropic,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+gemini,Google Gemini,Google,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+copilot365,Microsoft Copilot,Microsoft,productivity,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+grammarly,Grammarly,Grammarly,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+deepl,DeepL,DeepL SE,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+quillbot,QuillBot,Learneo,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+perplexity,Perplexity,Perplexity AI,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+notebooklm,NotebookLM,Google,research,Research,free,none_free,No
+elicit,Elicit,Elicit,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+consensus,Consensus,Consensus,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+semanticscholar,Semantic Scholar,Allen Institute for AI,research,Research,free,none_free,No
+connectedpapers,Connected Papers,Connected Papers,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+zotero,Zotero,Corporation for Digital Scholarship,research,Research,free,none_free,No
+githubcopilot,GitHub Copilot,GitHub / Microsoft,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+cursor,Cursor,Anysphere,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+claudecode,Claude Code,Anthropic,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+replit,Replit,Replit,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+midjourney,Midjourney,Midjourney,image,Image & Design,subscription,egyptian_visa; international_card; credit_card,Yes
+firefly,Adobe Firefly,Adobe,image,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+stablediffusion,Stable Diffusion,Stability AI and community,image,Image & Design,free,none_free,No
+leonardo,Leonardo AI,Leonardo / Canva,image,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+runway,Runway,Runway,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+synthesia,Synthesia,Synthesia,video,Video,subscription,egyptian_visa; international_card; credit_card,Yes
+descript,Descript,Descript,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+elevenlabs,ElevenLabs,ElevenLabs,audio,Audio,freemium,egyptian_visa; international_card; credit_card,Yes
+whisper,Whisper,OpenAI (open weights),audio,Audio,free,none_free,No
+otter,Otter.ai,Otter.ai,audio,Audio,freemium,egyptian_visa; international_card; credit_card,Yes
+gamma,Gamma,Gamma,presentation,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+beautifulai,Beautiful.ai,Beautiful.ai,presentation,Writing & Productivity,subscription,egyptian_visa; international_card; credit_card,Yes
+canva,Canva,Canva,design,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+figma,Figma,Figma,design,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+notion,Notion AI,Notion,productivity,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+n8n,n8n,n8n,automation,Agents & Automation,free,none_free,No
+zapier,Zapier,Zapier,automation,Agents & Automation,freemium,egyptian_visa; international_card; credit_card,Yes
+make,Make,Make (Celonis),automation,Agents & Automation,freemium,egyptian_visa; international_card; credit_card,Yes
+huggingface,Hugging Face,Hugging Face,data,Data,freemium,egyptian_visa; international_card; credit_card,Yes
+colab,Google Colab,Google,data,Data,freemium,egyptian_visa; international_card; credit_card,Yes
+julius,Julius AI,Julius,data,Data,freemium,egyptian_visa; international_card; credit_card,Yes
+khanmigo,Khanmigo,Khan Academy,education,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+browser_use,browser-use,browser-use Community,agents,Agents & Automation,free,none_free,No
+crewai,CrewAI,CrewAI Inc.,agents,Agents & Automation,free,none_free,No
+langgraph,LangGraph,LangChain Inc.,agents,Agents & Automation,free,none_free,No
+autogen,Microsoft AutoGen,Microsoft Research,agents,Agents & Automation,free,none_free,No
+stagehand,Stagehand,Browserbase,agents,Agents & Automation,free,none_free,No
+flowise,Flowise,FlowiseAI Community,agents,Agents & Automation,free,none_free,No
+ragas,Ragas,Exploding Gradients,research,Research,free,none_free,No
+langfuse,Langfuse,Langfuse (Y Combinator W23),agents,Agents & Automation,free,none_free,No
+qwen2_5_vl,Qwen2.5-VL,Alibaba Cloud,chinese,Research,free,none_free,No
+deepseek_coder_v2,DeepSeek-Coder-V2,DeepSeek,coding,Coding,free,none_free,No
+nomic_embed,Nomic Embed (v1.5),Nomic AI,research,Research,free,none_free,No
+colbert_ragatouille,ColBERTv2 & RAGatouille,Stanford NLP & Benjamin Clavié,research,Research,free,none_free,No
+llama_3_3,Llama 3.3 (70B Instruct),Meta AI,local_oss,Writing & Productivity,free,none_free,No
+mistral_small_3,Mistral Small 3 (24B),Mistral AI,local_oss,Writing & Productivity,free,none_free,No
+undermind,Undermind,Undermind AI,research,Research,subscription,egyptian_visa; international_card; credit_card,Yes
+keenious,Keenious,Keenious,research,Research,freemium,international_card; credit_card,No
+biogpt,BioGPT,Microsoft Research,research,Research,free,none_free,No
+geneformer,Geneformer,Theis Lab & Broad Institute,research,Research,free,none_free,No
+diffdock,DiffDock,MIT CSAIL,research,Research,free,none_free,No
+rdkit,RDKit,Greg Landrum & Community,research,Research,free,none_free,No
+biorender,BioRender,Science Suite Inc.,design,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+overleaf,Overleaf,Digital Science,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+openread,OpenRead,OpenRead Academy,research,Research,freemium,international_card; credit_card,No
+crossref_api,Crossref Metadata Search,Crossref (PILA),research,Research,free,none_free,No
+europe_pmc,Europe PMC,EMBL-EBI (European Bioinformatics Institute),research,Research,free,none_free,No
+suno_ai,Suno AI,Suno Inc.,audio,Audio,freemium,egyptian_visa; international_card; credit_card,Yes
+udio,Udio,Uncharted Labs,audio,Audio,freemium,egyptian_visa; international_card; credit_card,Yes
+civitai,Civitai,Civitai Inc.,image,Image & Design,free,none_free,No
+sillytavern,SillyTavern,SillyTavern Community,local_oss,Writing & Productivity,free,none_free,No
+invokeai,InvokeAI,Invoke AI Inc.,image,Image & Design,free,none_free,No
+krita_ai,Krita AI Diffusion,Acly & Community,image,Image & Design,free,none_free,No
+faster_whisper,Faster-Whisper,SYSTRAN,audio,Audio,free,none_free,No
+exllamav2,ExLlamaV2,turboderp,local_oss,Coding,free,none_free,No
+refact_ai,Refact.ai,Small AI,coding,Coding,free,none_free,No
+gpt_engineer,GPT-Engineer,Anton Osika & Community,coding,Coding,free,none_free,No
+chatdev,ChatDev,OpenBMB & Tsinghua University,coding,Coding,free,none_free,No
+metagpt,MetaGPT,DeepWisdom,coding,Coding,free,none_free,No
+codestral,Codestral,Mistral AI,coding,Coding,free,none_free,No
+starcoder2,StarCoder2,BigCode Project (ServiceNow & Hugging Face),coding,Coding,free,none_free,No
+mem0,Mem0,Mem0 Community,agents,Agents & Automation,free,none_free,No
+skyvern,Skyvern,Skyvern AI,agents,Agents & Automation,free,none_free,No
+openmanus,OpenManus,OpenManus Community,agents,Agents & Automation,free,none_free,No
+recraft_ai,Recraft AI,Recraft,design,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+deepseek,DeepSeek (V3 & R1),DeepSeek (High-Flyer),chinese,Coding,free,none_free,No
+qwen,Qwen 2.5 (Alibaba),Alibaba Cloud,chinese,Writing & Productivity,free,none_free,No
+qwen_coder,Qwen2.5-Coder,Alibaba Cloud,coding,Coding,free,none_free,No
+kimi,Kimi (Moonshot AI),Moonshot AI,chinese,Research,freemium,none_free,No
+zhipu_glm,Zhipu AI (GLM-4),Zhipu AI (Tsinghua University Spinoff),chinese,Research,free,none_free,No
+wan_video,Wan 2.1 (Alibaba),Alibaba Cloud,video,Video,free,none_free,No
+kling_ai,Kling AI,Kuaishou Technology,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+hailuo_ai,Hailuo AI (MiniMax),MiniMax,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+mineru,MinerU,OpenDataLab (Shanghai AI Lab),research,Research,free,none_free,No
+modelscope,ModelScope (魔搭社区),Alibaba Cloud / Tongyi Lab,chinese,Data,free,none_free,No
+siliconflow,SiliconFlow (SiliconCloud),SiliconFlow,chinese,Coding,pay_as_you_go,egyptian_visa; international_card; credit_card,Yes
+cogvideox,CogVideoX,Zhipu AI & Tsinghua University,video,Video,free,none_free,No
+internvl,InternVL 2.5,Shanghai AI Laboratory & OpenGVLab,chinese,Research,free,none_free,No
+cosyvoice,CosyVoice 2,Alibaba Cloud / FunAudioLLM,audio,Audio,free,none_free,No
+chattts,ChatTTS,2noise,audio,Audio,free,none_free,No
+metaso,Metaso (秘塔AI搜索),MetaSo (Shanghai Mita Information Technology),research,Research,freemium,none_free,No
+vidu_ai,Vidu AI,ShengShu Technology & Tsinghua University,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+baichuan,Baichuan (Baichuan 4),Baichuan Intelligence,chinese,Research,freemium,none_free,No
+doubao,Doubao (ByteDance),ByteDance (Volcano Engine),chinese,Writing & Productivity,freemium,none_free,No
+tencent_hunyuan,Tencent Hunyuan & HunyuanVideo,Tencent,chinese,Video,free,none_free,No
+kolors,Kolors (Kwai-Kolors),Kuaishou Technology,image,Image & Design,free,none_free,No
+stepfun,StepFun (Step-2 / Step-1X),StepFun (Jieyue Xingchen),chinese,Research,freemium,none_free,No
+yi_large,Yi-Large (01.AI),01.AI (Kai-Fu Lee),chinese,Writing & Productivity,free,none_free,No
+fish_speech,Fish Speech,Fish Audio,audio,Audio,free,none_free,No
+internlm,InternLM 2.5,Shanghai AI Laboratory,chinese,Research,free,none_free,No
+dify,Dify.ai,Langgenius,agents,Agents & Automation,free,none_free,No
+fastgpt,FastGPT,Labring,agents,Agents & Automation,free,none_free,No
+mindsearch,MindSearch,Shanghai AI Laboratory,research,Research,free,none_free,No
+tripo3d,Tripo AI,VAST AI,image,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+data_juicer,Data-Juicer,Alibaba Cloud,data,Data,free,none_free,No
+qwen_audio,Qwen2-Audio,Alibaba Cloud,audio,Audio,free,none_free,No
+baidu_ernie,ERNIE Bot (Baidu),Baidu,chinese,Research,freemium,none_free,No
+sensenova,SenseNova / SenseChat,SenseTime,chinese,Writing & Productivity,freemium,none_free,No
+so_ai,360 AI Search,360 Security Technology,chinese,Research,freemium,none_free,No
+deepseek_vl,DeepSeek-VL2,DeepSeek,chinese,Research,free,none_free,No
+aider,Aider,Paul Gauthier,coding,Coding,free,none_free,No
+openhands,OpenHands (formerly OpenDevin),All-Hands AI & Open Source Community,coding,Coding,free,none_free,No
+cline,Cline (Claude Dev),Cline Community,coding,Coding,free,none_free,No
+continue_dev,Continue.dev,Continue Open Source,coding,Coding,free,none_free,No
+swe_agent,SWE-agent,Princeton University NLP Group,coding,Coding,free,none_free,No
+tabbyml,TabbyML,TabbyML Community,coding,Coding,free,none_free,No
+coderabbit,CodeRabbit,CodeRabbit AI,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+pr_agent,PR-Agent (Qodo),Qodo (formerly CodiumAI),coding,Coding,free,none_free,No
+v0_dev,v0 by Vercel,Vercel,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+bolt_new,Bolt.new,StackBlitz,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+flux_schnell,FLUX.1 [schnell],Black Forest Labs,image,Image & Design,free,none_free,No
+flux_dev,FLUX.1 [dev],Black Forest Labs,image,Image & Design,free,none_free,No
+whisperx,WhisperX,Max Bain (Oxford University),audio,Audio,free,none_free,No
+windsurf,Windsurf (Codeium),Codeium,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+llamaindex,LlamaIndex,LlamaIndex Inc.,agents,Agents & Automation,free,none_free,No
+haystack,Haystack,deepset,agents,Agents & Automation,free,none_free,No
+pinokio,Pinokio,Pinokio Community,local_oss,Coding,free,none_free,No
+iopaint,IOPaint (Lama Cleaner),Sanster,image,Image & Design,free,none_free,No
+jenni_ai,Jenni AI,Jenni,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+writefull,Writefull,Digital Science,writing,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+krea_ai,Krea AI,Krea Inc.,image,Image & Design,freemium,egyptian_visa; international_card; credit_card,Yes
+pika_labs,Pika,Pika Labs,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+luma_dream_machine,Dream Machine (Luma AI),Luma AI,video,Video,freemium,egyptian_visa; international_card; credit_card,Yes
+obsidian_smart_connections,Smart Connections (Obsidian),Brian Petro (Open Source),productivity,Writing & Productivity,free,none_free,No
+logseq_ai,Logseq,Logseq Community,productivity,Writing & Productivity,free,none_free,No
+scisummary,SciSummary,SciSummary Inc.,research,Research,freemium,international_card; credit_card,No
+audacity_ai,Audacity OpenVINO AI Plugins,Intel & Audacity Team,audio,Audio,free,none_free,No
+appsmith_ai,Appsmith AI,Appsmith Community,automation,Agents & Automation,free,none_free,No
+tooljet_ai,ToolJet AI,ToolJet Inc.,automation,Agents & Automation,free,none_free,No
+trulens,TruLens,TruEra (Snowflake),research,Research,free,none_free,No
+helicone,Helicone,Helicone (Y Combinator W23),agents,Agents & Automation,free,none_free,No
+openpipe,OpenPipe,OpenPipe Inc.,data,Data,pay_as_you_go,none_free,No
+superagi,SuperAGI,SuperAGI Community,agents,Agents & Automation,free,none_free,No
+devika,Devika,Stition.AI & Mufeed VH,coding,Coding,free,none_free,No
+lovable_dev,Lovable.dev,Lovable,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+sqlai,SQLAI.ai,SQLAI,data,Data,freemium,egyptian_visa; international_card; credit_card,Yes
+postman_ai,Postman AI Assistant (Postbot),Postman Inc.,coding,Coding,freemium,egyptian_visa; international_card; credit_card,Yes
+mosec,Mosec,Mosec Community,local_oss,Coding,free,none_free,No
+bark_audio,Bark,Suno (Hugging Face),audio,Audio,free,none_free,No
+musicgen,MusicGen,Meta FAIR,audio,Audio,free,none_free,No
+kokoro_tts,Kokoro-82M,hexgrad,audio,Audio,free,none_free,No
+florence2,Florence-2,Microsoft Research (Hugging Face),image,Image & Design,free,none_free,No
+bge_m3,BGE-M3 (BAAI),Beijing Academy of Artificial Intelligence (BAAI),research,Research,free,none_free,No
+bge_reranker,BGE-Reranker-v2-m3,Beijing Academy of Artificial Intelligence (BAAI),research,Research,free,none_free,No
+surya_ocr,Surya OCR,VikParuchuri,research,Research,free,none_free,No
+marker_pdf,Marker,VikParuchuri,research,Research,free,none_free,No
+nougat,Nougat (Meta AI),Meta FAIR,research,Research,free,none_free,No
+smollm2,SmolLM2,Hugging Face,local_oss,Writing & Productivity,free,none_free,No
+biomistral,BioMistral,BioMistral Team,research,Research,free,none_free,No
+esmfold,ESMFold / ESM-3,EvolutionaryScale & Meta FAIR,research,Research,free,none_free,No
+diffusers,Hugging Face Diffusers,Hugging Face,image,Image & Design,free,none_free,No
+gradio,Gradio,Hugging Face,local_oss,Coding,free,none_free,No
+docling,Docling,IBM Research (Hugging Face),research,Research,free,none_free,No
+sam2,Segment Anything 2 (SAM 2),Meta FAIR,image,Image & Design,free,none_free,No
+qdrant_db,Qdrant,Qdrant Solutions,data,Data,free,none_free,No
+ollama,Ollama,Ollama Community,local_oss,Coding,free,none_free,No
+llama_cpp,llama.cpp,Georgi Gerganov & Community,local_oss,Coding,free,none_free,No
+vllm,vLLM,vLLM Team (UC Berkeley LMSYS),local_oss,Coding,free,none_free,No
+open_webui,Open WebUI,Open WebUI Community,local_oss,Writing & Productivity,free,none_free,No
+lm_studio,LM Studio,Element Labs,local_oss,Writing & Productivity,free,none_free,No
+jan_ai,Jan,Menlo Research,local_oss,Writing & Productivity,free,none_free,No
+comfyui,ComfyUI,ComfyUI Community,image,Image & Design,free,none_free,No
+fooocus,Fooocus,lllyasviel (ControlNet author),image,Image & Design,free,none_free,No
+whisper_cpp,whisper.cpp,Georgi Gerganov & Community,audio,Audio,free,none_free,No
+piper_tts,Piper TTS,Rhasspy Community,audio,Audio,free,none_free,No
+librechat,LibreChat,Danny Avila & Community,local_oss,Writing & Productivity,free,none_free,No
+upscayl,Upscayl,Upscayl Community,image,Image & Design,free,none_free,No
+anything_llm,AnythingLLM,Mintplex Labs,local_oss,Research,free,none_free,No
+unsloth,Unsloth,Unsloth AI,local_oss,Coding,free,none_free,No
+litellm,LiteLLM,BerriAI,local_oss,Coding,free,none_free,No
+whisper_turbo,Whisper-large-v3-turbo,OpenAI (Hugging Face),audio,Audio,free,none_free,No
+chroma_db,ChromaDB,Chroma,data,Data,free,none_free,No
+moondream,Moondream 2,Vikhyat,image,Image & Design,free,none_free,No
+fastembed,FastEmbed,Qdrant,research,Research,free,none_free,No
+pymupdf4llm,PyMuPDF4LLM,Artifex Software,research,Research,free,none_free,No
+tei_server,Text Embeddings Inference (TEI),Hugging Face,data,Data,free,none_free,No
+openfold_ai,OpenFold,AlQuraishi Lab (Columbia University),research,Research,free,none_free,No
+sglang,SGLang,LMSYS Organization (UC Berkeley),local_oss,Coding,free,none_free,No
+llamafile,llamafile,Mozilla Ocho & Justine Tunney,local_oss,Coding,free,none_free,No
+privategpt,PrivateGPT,Zylon & Community,local_oss,Research,free,none_free,No
+khoj_ai,Khoj,Khoj Community,productivity,Writing & Productivity,freemium,egyptian_visa; international_card; credit_card,Yes
+f5_tts,F5-TTS,SWivid & Community,audio,Audio,free,none_free,No
+goose_dev,Goose,Block Inc.,coding,Coding,free,none_free,No
+activepieces,Activepieces,Activepieces Community,automation,Agents & Automation,free,none_free,No
+semantic_kernel,Semantic Kernel,Microsoft,agents,Agents & Automation,free,none_free,No
+asreview,ASReview LAB,Utrecht University (AIKD Lab),research,Research,free,none_free,No
+researchrabbit,ResearchRabbit,ResearchRabbit,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+scite,Scite.ai,Scite (Research Solutions),research,Research,subscription,egyptian_visa; international_card; credit_card,Yes
+litmaps,Litmaps,Litmaps Ltd,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+scispace,SciSpace (Typeset),SciSpace,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+rayyan,Rayyan,Rayyan Systems (QCRI Spinoff),research,Research,freemium,egyptian_visa; international_card; credit_card,Yes
+paperqa,PaperQA,FutureHouse & Andrew White,research,Research,free,none_free,No
+colabfold,ColabFold (AlphaFold 2/3 Accelerator),Mirdita et al. (Open Source Community),research,Research,free,none_free,No
+chemcrow,ChemCrow,FutureHouse & University of Rochester,research,Research,free,none_free,No
+openalex,OpenAlex,OurResearch,research,Research,free,none_free,No
+inciteful,Inciteful,Inciteful (Non-Profit),research,Research,free,none_free,No
+scholarcy,Scholarcy,Scholarcy Ltd,research,Research,freemium,egyptian_visa; international_card; credit_card,Yes

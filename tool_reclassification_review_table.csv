@@ -1,0 +1,216 @@
+Tool Name,reassigned_from,New Task,Cost,Payment Methods,Student Discount,Reassignment Reason
+ChatGPT,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Claude,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Google Gemini,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",Student discount,-
+Microsoft Copilot,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Grammarly,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+DeepL,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+QuillBot,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Perplexity,none,Research,Paid plans,"Egyptian Visa, International card",Student discount,-
+NotebookLM,none,Research,Free,None (Free / No card needed),No,-
+Elicit,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Consensus,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Semantic Scholar,none,Research,Free,None (Free / No card needed),No,-
+Connected Papers,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Zotero,none,Research,Free,None (Free / No card needed),No,-
+GitHub Copilot,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",Check current status,-
+Cursor,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+Claude Code,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+Replit,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+Midjourney,none,Image & Design,Paid plans,"Egyptian Visa, International card",No,-
+Adobe Firefly,none,Image & Design,Paid plans,"Egyptian Visa, International card",Student discount,-
+Stable Diffusion,none,Image & Design,Free,None (Free / No card needed),No,-
+Leonardo AI,none,Image & Design,Paid plans,"Egyptian Visa, International card",No,-
+Runway,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Synthesia,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Descript,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+ElevenLabs,none,Audio,Paid plans,"Egyptian Visa, International card",No,-
+Whisper,none,Audio,Free,None (Free / No card needed),No,-
+Otter.ai,none,Audio,Paid plans,"Egyptian Visa, International card",No,-
+Gamma,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Beautiful.ai,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Canva,none,Image & Design,Paid plans,"Egyptian Visa, International card",Student discount,-
+Figma,none,Image & Design,Paid plans,"Egyptian Visa, International card",Student discount,-
+Notion AI,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",Student discount,-
+n8n,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Zapier,none,Agents & Automation,Paid plans,"Egyptian Visa, International card",No,-
+Make,none,Agents & Automation,Paid plans,"Egyptian Visa, International card",No,-
+Hugging Face,none,Data,Paid plans,"Egyptian Visa, International card",No,-
+Google Colab,none,Data,Paid plans,"Egyptian Visa, International card",No,-
+Julius AI,none,Data,Paid plans,"Egyptian Visa, International card",No,-
+Khanmigo,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+browser-use,none,Agents & Automation,Free,None (Free / No card needed),No,-
+CrewAI,none,Agents & Automation,Free,None (Free / No card needed),No,-
+LangGraph,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Microsoft AutoGen,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Stagehand,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Flowise,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Ragas,none,Research,Free,None (Free / No card needed),No,-
+Langfuse,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Qwen2.5-VL,chinese,Research,Free,None (Free / No card needed),No,"Specialized vision-language model for parsing scientific figures, charts, and technical documents."
+DeepSeek-Coder-V2,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Nomic Embed (v1.5),none,Research,Free,None (Free / No card needed),No,-
+ColBERTv2 & RAGatouille,none,Research,Free,None (Free / No card needed),No,-
+Llama 3.3 (70B Instruct),local_oss,Writing & Productivity,Free,None (Free / No card needed),No,General open foundation LLM used as an open-weights alternative to ChatGPT for writing and reasoning.
+Mistral Small 3 (24B),local_oss,Writing & Productivity,Free,None (Free / No card needed),No,General open-weight instruction-tuned model for local conversational chat and drafting.
+Undermind,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Keenious,none,Research,Paid plans,International card,No,-
+BioGPT,none,Research,Free,None (Free / No card needed),No,-
+Geneformer,none,Research,Free,None (Free / No card needed),No,-
+DiffDock,none,Research,Free,None (Free / No card needed),No,-
+RDKit,none,Research,Free,None (Free / No card needed),No,-
+BioRender,none,Image & Design,Paid plans,"Egyptian Visa, International card",Student discount,-
+Overleaf,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",Student discount,-
+OpenRead,none,Research,Paid plans,International card,No,-
+Crossref Metadata Search,none,Research,Free,None (Free / No card needed),No,-
+Europe PMC,none,Research,Free,None (Free / No card needed),No,-
+Suno AI,none,Audio,Paid plans,"Egyptian Visa, International card",No,-
+Udio,none,Audio,Paid plans,"Egyptian Visa, International card",No,-
+Civitai,none,Image & Design,Free,None (Free / No card needed),No,-
+SillyTavern,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,"Local power-user UI for multi-persona LLM chats, creative writing, and dialogue."
+InvokeAI,none,Image & Design,Free,None (Free / No card needed),No,-
+Krita AI Diffusion,none,Image & Design,Free,None (Free / No card needed),No,-
+Faster-Whisper,none,Audio,Free,None (Free / No card needed),No,-
+ExLlamaV2,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Ultra-fast local inference engine optimized for running quantized EXL2 models on NVIDIA GPUs.
+Refact.ai,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+GPT-Engineer,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+ChatDev,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+MetaGPT,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Codestral,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+StarCoder2,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Mem0,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Skyvern,none,Agents & Automation,Free,None (Free / No card needed),No,-
+OpenManus,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Recraft AI,none,Image & Design,Paid plans,"Egyptian Visa, International card",No,-
+DeepSeek (V3 & R1),chinese,Writing & Productivity,Free,None (Free / No card needed),No,Frontier open reasoning and conversational foundation models (DeepSeek V3 & R1) for general drafting and analysis.
+Qwen 2.5 (Alibaba),chinese,Writing & Productivity,Free,None (Free / No card needed),No,Alibaba's general multilingual foundation LLM and chatbot for drafting and daily assistance.
+Qwen2.5-Coder,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Kimi (Moonshot AI),chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,"Flagship long-context AI chatbot (Moonshot AI) for document synthesis, drafting, and conversational Q&A."
+Zhipu AI (GLM-4),chinese,Writing & Productivity,Free,None (Free / No card needed),No,Zhipu AI's flagship GLM-4 conversational foundation model for general reasoning and writing.
+Wan 2.1 (Alibaba),none,Video,Free,None (Free / No card needed),No,-
+Kling AI,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Hailuo AI (MiniMax),none,Video,Paid plans,"Egyptian Visa, International card",No,-
+MinerU,none,Research,Free,None (Free / No card needed),No,-
+ModelScope (魔搭社区),chinese,Data,Free,None (Free / No card needed),No,China's open-source model repository and dataset hub providing model checkpoints and dataset hosting.
+SiliconFlow (SiliconCloud),chinese,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,Developer cloud platform providing high-throughput API endpoints to deploy and call open-source models.
+CogVideoX,none,Video,Free,None (Free / No card needed),No,-
+InternVL 2.5,chinese,Research,Free,None (Free / No card needed),No,"Open multimodal vision-language model specialized in scientific document OCR, chart parsing, and figures."
+CosyVoice 2,none,Audio,Free,None (Free / No card needed),No,-
+ChatTTS,none,Audio,Free,None (Free / No card needed),No,-
+Metaso (秘塔AI搜索),none,Research,Paid plans,Alipay / WeChat only,No,-
+Vidu AI,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Baichuan (Baichuan 4),chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,Multilingual foundation LLM and chatbot (Baichuan 4) for conversational Q&A and text generation.
+Doubao (ByteDance),chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,"ByteDance's consumer AI chatbot and foundation model for daily assistance, writing, and dialogue."
+Tencent Hunyuan & HunyuanVideo,chinese,Video,Free,None (Free / No card needed),No,Open-source text-to-video foundation model (HunyuanVideo) and 3D generation engine.
+Kolors (Kwai-Kolors),none,Image & Design,Free,None (Free / No card needed),No,-
+StepFun (Step-2 / Step-1X),chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,Large-scale multimodal conversational LLM suite (Step-2 / Step-1X) for general reasoning and drafting.
+Yi-Large (01.AI),chinese,Writing & Productivity,Free,None (Free / No card needed),No,"01.AI's flagship conversational LLM for bilingual drafting, reasoning, and productivity."
+Fish Speech,none,Audio,Free,None (Free / No card needed),No,-
+InternLM 2.5,chinese,Writing & Productivity,Free,None (Free / No card needed),No,Shanghai AI Lab's open foundation LLM (InternLM 2.5) for long-form text drafting and dialogue.
+Dify.ai,none,Agents & Automation,Free,None (Free / No card needed),No,-
+FastGPT,none,Agents & Automation,Free,None (Free / No card needed),No,-
+MindSearch,none,Research,Free,None (Free / No card needed),No,-
+Tripo AI,none,Image & Design,Paid plans,"Egyptian Visa, International card",No,-
+Data-Juicer,none,Data,Free,None (Free / No card needed),No,-
+Qwen2-Audio,none,Audio,Free,None (Free / No card needed),No,-
+ERNIE Bot (Baidu),chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,Baidu's flagship conversational LLM and chatbot (ERNIE Bot) for general writing and inquiries.
+SenseNova / SenseChat,chinese,Writing & Productivity,Paid plans,Alipay / WeChat only,No,SenseTime's SenseChat conversational assistant and enterprise foundation suite for text drafting.
+360 AI Search,chinese,Research,Paid plans,Alipay / WeChat only,No,"Multi-engine generative search engine for literature discovery, fact checking, and citations."
+DeepSeek-VL2,chinese,Research,Free,None (Free / No card needed),No,Specialized vision-language model for multi-column research paper OCR and scientific diagrams.
+Aider,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+OpenHands (formerly OpenDevin),none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Cline (Claude Dev),none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Continue.dev,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+SWE-agent,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+TabbyML,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+CodeRabbit,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+PR-Agent (Qodo),none,Coding & dev tools,Free,None (Free / No card needed),No,-
+v0 by Vercel,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+Bolt.new,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+FLUX.1 [schnell],none,Image & Design,Free,None (Free / No card needed),No,-
+FLUX.1 [dev],none,Image & Design,Free,None (Free / No card needed),No,-
+WhisperX,none,Audio,Free,None (Free / No card needed),No,-
+Windsurf (Codeium),none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+LlamaIndex,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Haystack,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Pinokio,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Autonomous browser and script runner that automates installing AI tools from GitHub.
+IOPaint (Lama Cleaner),none,Image & Design,Free,None (Free / No card needed),No,-
+Jenni AI,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Writefull,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+Krea AI,none,Image & Design,Paid plans,"Egyptian Visa, International card",No,-
+Pika,none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Dream Machine (Luma AI),none,Video,Paid plans,"Egyptian Visa, International card",No,-
+Smart Connections (Obsidian),none,Writing & Productivity,Free,None (Free / No card needed),No,-
+Logseq,none,Writing & Productivity,Free,None (Free / No card needed),No,-
+SciSummary,none,Research,Paid plans,International card,No,-
+Audacity OpenVINO AI Plugins,none,Audio,Free,None (Free / No card needed),No,-
+Appsmith AI,none,Agents & Automation,Free,None (Free / No card needed),No,-
+ToolJet AI,none,Agents & Automation,Free,None (Free / No card needed),No,-
+TruLens,none,Research,Free,None (Free / No card needed),No,-
+Helicone,none,Agents & Automation,Free,None (Free / No card needed),No,-
+OpenPipe,none,Data,Free,None (Free / No card needed),No,-
+SuperAGI,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Devika,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Lovable.dev,none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+SQLAI.ai,none,Data,Paid plans,"Egyptian Visa, International card",No,-
+Postman AI Assistant (Postbot),none,Coding & dev tools,Paid plans,"Egyptian Visa, International card",No,-
+Mosec,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,High-performance Rust model serving framework with dynamic batching for ML microservices.
+Bark,none,Audio,Free,None (Free / No card needed),No,-
+MusicGen,none,Audio,Free,None (Free / No card needed),No,-
+Kokoro-82M,none,Audio,Free,None (Free / No card needed),No,-
+Florence-2,none,Image & Design,Free,None (Free / No card needed),No,-
+BGE-M3 (BAAI),none,Research,Free,None (Free / No card needed),No,-
+BGE-Reranker-v2-m3,none,Research,Free,None (Free / No card needed),No,-
+Surya OCR,none,Research,Free,None (Free / No card needed),No,-
+Marker,none,Research,Free,None (Free / No card needed),No,-
+Nougat (Meta AI),none,Research,Free,None (Free / No card needed),No,-
+SmolLM2,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,Compact on-device language model designed for fast local text generation and drafting.
+BioMistral,none,Research,Free,None (Free / No card needed),No,-
+ESMFold / ESM-3,none,Research,Free,None (Free / No card needed),No,-
+Hugging Face Diffusers,none,Image & Design,Free,None (Free / No card needed),No,-
+Gradio,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Python library for rapidly building interactive web demos and prototypes for ML models.
+Docling,none,Research,Free,None (Free / No card needed),No,-
+Segment Anything 2 (SAM 2),none,Image & Design,Free,None (Free / No card needed),No,-
+Qdrant,none,Data,Free,None (Free / No card needed),No,-
+Ollama,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Command-line runtime and developer daemon providing an OpenAI-compatible REST API for local models.
+llama.cpp,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,High-performance C/C++ LLM inference engine and GGUF quantization library for developers.
+vLLM,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,High-throughput production serving library with PagedAttention for model deployment.
+Open WebUI,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,ChatGPT-style self-hosted web interface for local and cloud LLM conversations.
+LM Studio,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,"Desktop application for downloading, managing, and chatting with local LLMs."
+Jan,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,100% open-source desktop ChatGPT alternative for running local models privately.
+ComfyUI,none,Image & Design,Free,None (Free / No card needed),No,-
+Fooocus,none,Image & Design,Free,None (Free / No card needed),No,-
+whisper.cpp,none,Audio,Free,None (Free / No card needed),No,-
+Piper TTS,none,Audio,Free,None (Free / No card needed),No,-
+LibreChat,local_oss,Writing & Productivity,Free,None (Free / No card needed),No,Omnichannel self-hosted chat platform supporting multi-model conversations.
+Upscayl,none,Image & Design,Free,None (Free / No card needed),No,-
+AnythingLLM,local_oss,Research,Free,None (Free / No card needed),No,"Private desktop and server RAG platform for chatting with research papers, PDFs, and notes."
+Unsloth,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Developer framework that accelerates open-source LLM fine-tuning and cuts VRAM usage.
+LiteLLM,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Universal LLM proxy library standardizing 100+ model APIs into OpenAI format.
+Whisper-large-v3-turbo,none,Audio,Free,None (Free / No card needed),No,-
+ChromaDB,none,Data,Free,None (Free / No card needed),No,-
+Moondream 2,none,Image & Design,Free,None (Free / No card needed),No,-
+FastEmbed,none,Research,Free,None (Free / No card needed),No,-
+PyMuPDF4LLM,none,Research,Free,None (Free / No card needed),No,-
+Text Embeddings Inference (TEI),none,Data,Free,None (Free / No card needed),No,-
+OpenFold,none,Research,Free,None (Free / No card needed),No,-
+SGLang,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Structured generation and serving framework for complex multi-call LLM workflows.
+llamafile,local_oss,Coding & dev tools,Free,None (Free / No card needed),No,Single-file cross-platform executable runtime that runs LLMs directly on hardware.
+PrivateGPT,local_oss,Research,Free,None (Free / No card needed),No,100% offline document question-answering framework for private research papers and files.
+Khoj,none,Writing & Productivity,Paid plans,"Egyptian Visa, International card",No,-
+F5-TTS,none,Audio,Free,None (Free / No card needed),No,-
+Goose,none,Coding & dev tools,Free,None (Free / No card needed),No,-
+Activepieces,none,Agents & Automation,Free,None (Free / No card needed),No,-
+Semantic Kernel,none,Agents & Automation,Free,None (Free / No card needed),No,-
+ASReview LAB,none,Research,Free,None (Free / No card needed),No,-
+ResearchRabbit,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Scite.ai,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Litmaps,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+SciSpace (Typeset),none,Research,Paid plans,"Egyptian Visa, International card",No,-
+Rayyan,none,Research,Paid plans,"Egyptian Visa, International card",No,-
+PaperQA,none,Research,Free,None (Free / No card needed),No,-
+ColabFold (AlphaFold 2/3 Accelerator),none,Research,Free,None (Free / No card needed),No,-
+ChemCrow,none,Research,Free,None (Free / No card needed),No,-
+OpenAlex,none,Research,Free,None (Free / No card needed),No,-
+Inciteful,none,Research,Free,None (Free / No card needed),No,-
+Scholarcy,none,Research,Paid plans,"Egyptian Visa, International card",No,-

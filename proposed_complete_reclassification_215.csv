@@ -1,0 +1,216 @@
+tool_id,tool_name,new_task,cost,payment_methods,student_discount
+chatgpt,ChatGPT,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+claude,Claude,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+gemini,Google Gemini,Writing & Productivity,Paid plans,"Egyptian Visa, International card",True
+copilot365,Microsoft Copilot,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+grammarly,Grammarly,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+deepl,DeepL,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+quillbot,QuillBot,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+perplexity,Perplexity,Research,Paid plans,"Egyptian Visa, International card",True
+notebooklm,NotebookLM,Research,Free,None (Free / No card needed),False
+elicit,Elicit,Research,Paid plans,"Egyptian Visa, International card",False
+consensus,Consensus,Research,Paid plans,"Egyptian Visa, International card",False
+semanticscholar,Semantic Scholar,Research,Free,None (Free / No card needed),False
+connectedpapers,Connected Papers,Research,Paid plans,"Egyptian Visa, International card",False
+zotero,Zotero,Research,Free,None (Free / No card needed),False
+githubcopilot,GitHub Copilot,Coding,Paid plans,"Egyptian Visa, International card",True
+cursor,Cursor,Coding,Paid plans,"Egyptian Visa, International card",False
+claudecode,Claude Code,Coding,Paid plans,"Egyptian Visa, International card",False
+replit,Replit,Coding,Paid plans,"Egyptian Visa, International card",False
+midjourney,Midjourney,Image & Design,Paid plans,"Egyptian Visa, International card",False
+firefly,Adobe Firefly,Image & Design,Paid plans,"Egyptian Visa, International card",True
+stablediffusion,Stable Diffusion,Image & Design,Free,None (Free / No card needed),False
+leonardo,Leonardo AI,Image & Design,Paid plans,"Egyptian Visa, International card",False
+runway,Runway,Video,Paid plans,"Egyptian Visa, International card",False
+synthesia,Synthesia,Video,Paid plans,"Egyptian Visa, International card",False
+descript,Descript,Video,Paid plans,"Egyptian Visa, International card",False
+elevenlabs,ElevenLabs,Audio,Paid plans,"Egyptian Visa, International card",False
+whisper,Whisper,Audio,Free,None (Free / No card needed),False
+otter,Otter.ai,Audio,Paid plans,"Egyptian Visa, International card",False
+gamma,Gamma,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+beautifulai,Beautiful.ai,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+canva,Canva,Image & Design,Paid plans,"Egyptian Visa, International card",True
+figma,Figma,Image & Design,Paid plans,"Egyptian Visa, International card",True
+notion,Notion AI,Writing & Productivity,Paid plans,"Egyptian Visa, International card",True
+n8n,n8n,Agents & Automation,Free,None (Free / No card needed),False
+zapier,Zapier,Agents & Automation,Paid plans,"Egyptian Visa, International card",False
+make,Make,Agents & Automation,Paid plans,"Egyptian Visa, International card",False
+huggingface,Hugging Face,Data,Paid plans,"Egyptian Visa, International card",False
+colab,Google Colab,Data,Paid plans,"Egyptian Visa, International card",False
+julius,Julius AI,Data,Paid plans,"Egyptian Visa, International card",False
+khanmigo,Khanmigo,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+browser_use,browser-use,Agents & Automation,Free,None (Free / No card needed),False
+crewai,CrewAI,Agents & Automation,Free,None (Free / No card needed),False
+langgraph,LangGraph,Agents & Automation,Free,None (Free / No card needed),False
+autogen,Microsoft AutoGen,Agents & Automation,Free,None (Free / No card needed),False
+stagehand,Stagehand,Agents & Automation,Free,None (Free / No card needed),False
+flowise,Flowise,Agents & Automation,Free,None (Free / No card needed),False
+ragas,Ragas,Research,Free,None (Free / No card needed),False
+langfuse,Langfuse,Agents & Automation,Free,None (Free / No card needed),False
+qwen2_5_vl,Qwen2.5-VL,Research,Free,None (Free / No card needed),False
+deepseek_coder_v2,DeepSeek-Coder-V2,Coding,Free,None (Free / No card needed),False
+nomic_embed,Nomic Embed (v1.5),Research,Free,None (Free / No card needed),False
+colbert_ragatouille,ColBERTv2 & RAGatouille,Research,Free,None (Free / No card needed),False
+llama_3_3,Llama 3.3 (70B Instruct),Writing & Productivity,Free,None (Free / No card needed),False
+mistral_small_3,Mistral Small 3 (24B),Writing & Productivity,Free,None (Free / No card needed),False
+undermind,Undermind,Research,Paid plans,"Egyptian Visa, International card",False
+keenious,Keenious,Research,Paid plans,International card,False
+biogpt,BioGPT,Research,Free,None (Free / No card needed),False
+geneformer,Geneformer,Research,Free,None (Free / No card needed),False
+diffdock,DiffDock,Research,Free,None (Free / No card needed),False
+rdkit,RDKit,Research,Free,None (Free / No card needed),False
+biorender,BioRender,Image & Design,Paid plans,"Egyptian Visa, International card",True
+overleaf,Overleaf,Writing & Productivity,Paid plans,"Egyptian Visa, International card",True
+openread,OpenRead,Research,Paid plans,International card,False
+crossref_api,Crossref Metadata Search,Research,Free,None (Free / No card needed),False
+europe_pmc,Europe PMC,Research,Free,None (Free / No card needed),False
+suno_ai,Suno AI,Audio,Paid plans,"Egyptian Visa, International card",False
+udio,Udio,Audio,Paid plans,"Egyptian Visa, International card",False
+civitai,Civitai,Image & Design,Free,None (Free / No card needed),False
+sillytavern,SillyTavern,Writing & Productivity,Free,None (Free / No card needed),False
+invokeai,InvokeAI,Image & Design,Free,None (Free / No card needed),False
+krita_ai,Krita AI Diffusion,Image & Design,Free,None (Free / No card needed),False
+faster_whisper,Faster-Whisper,Audio,Free,None (Free / No card needed),False
+exllamav2,ExLlamaV2,Coding,Free,None (Free / No card needed),False
+refact_ai,Refact.ai,Coding,Free,None (Free / No card needed),False
+gpt_engineer,GPT-Engineer,Coding,Free,None (Free / No card needed),False
+chatdev,ChatDev,Coding,Free,None (Free / No card needed),False
+metagpt,MetaGPT,Coding,Free,None (Free / No card needed),False
+codestral,Codestral,Coding,Free,None (Free / No card needed),False
+starcoder2,StarCoder2,Coding,Free,None (Free / No card needed),False
+mem0,Mem0,Agents & Automation,Free,None (Free / No card needed),False
+skyvern,Skyvern,Agents & Automation,Free,None (Free / No card needed),False
+openmanus,OpenManus,Agents & Automation,Free,None (Free / No card needed),False
+recraft_ai,Recraft AI,Image & Design,Paid plans,"Egyptian Visa, International card",False
+deepseek,DeepSeek (V3 & R1),Coding,Free,None (Free / No card needed),False
+qwen,Qwen 2.5 (Alibaba),Writing & Productivity,Free,None (Free / No card needed),False
+qwen_coder,Qwen2.5-Coder,Coding,Free,None (Free / No card needed),False
+kimi,Kimi (Moonshot AI),Research,Paid plans,Alipay / WeChat only,False
+zhipu_glm,Zhipu AI (GLM-4),Research,Free,None (Free / No card needed),False
+wan_video,Wan 2.1 (Alibaba),Video,Free,None (Free / No card needed),False
+kling_ai,Kling AI,Video,Paid plans,"Egyptian Visa, International card",False
+hailuo_ai,Hailuo AI (MiniMax),Video,Paid plans,"Egyptian Visa, International card",False
+mineru,MinerU,Research,Free,None (Free / No card needed),False
+modelscope,ModelScope (魔搭社区),Data,Free,None (Free / No card needed),False
+siliconflow,SiliconFlow (SiliconCloud),Coding,Paid plans,"Egyptian Visa, International card",False
+cogvideox,CogVideoX,Video,Free,None (Free / No card needed),False
+internvl,InternVL 2.5,Research,Free,None (Free / No card needed),False
+cosyvoice,CosyVoice 2,Audio,Free,None (Free / No card needed),False
+chattts,ChatTTS,Audio,Free,None (Free / No card needed),False
+metaso,Metaso (秘塔AI搜索),Research,Paid plans,Alipay / WeChat only,False
+vidu_ai,Vidu AI,Video,Paid plans,"Egyptian Visa, International card",False
+baichuan,Baichuan (Baichuan 4),Research,Paid plans,Alipay / WeChat only,False
+doubao,Doubao (ByteDance),Writing & Productivity,Paid plans,Alipay / WeChat only,False
+tencent_hunyuan,Tencent Hunyuan & HunyuanVideo,Video,Free,None (Free / No card needed),False
+kolors,Kolors (Kwai-Kolors),Image & Design,Free,None (Free / No card needed),False
+stepfun,StepFun (Step-2 / Step-1X),Research,Paid plans,Alipay / WeChat only,False
+yi_large,Yi-Large (01.AI),Writing & Productivity,Free,None (Free / No card needed),False
+fish_speech,Fish Speech,Audio,Free,None (Free / No card needed),False
+internlm,InternLM 2.5,Research,Free,None (Free / No card needed),False
+dify,Dify.ai,Agents & Automation,Free,None (Free / No card needed),False
+fastgpt,FastGPT,Agents & Automation,Free,None (Free / No card needed),False
+mindsearch,MindSearch,Research,Free,None (Free / No card needed),False
+tripo3d,Tripo AI,Image & Design,Paid plans,"Egyptian Visa, International card",False
+data_juicer,Data-Juicer,Data,Free,None (Free / No card needed),False
+qwen_audio,Qwen2-Audio,Audio,Free,None (Free / No card needed),False
+baidu_ernie,ERNIE Bot (Baidu),Research,Paid plans,Alipay / WeChat only,False
+sensenova,SenseNova / SenseChat,Writing & Productivity,Paid plans,Alipay / WeChat only,False
+so_ai,360 AI Search,Research,Paid plans,Alipay / WeChat only,False
+deepseek_vl,DeepSeek-VL2,Research,Free,None (Free / No card needed),False
+aider,Aider,Coding,Free,None (Free / No card needed),False
+openhands,OpenHands (formerly OpenDevin),Coding,Free,None (Free / No card needed),False
+cline,Cline (Claude Dev),Coding,Free,None (Free / No card needed),False
+continue_dev,Continue.dev,Coding,Free,None (Free / No card needed),False
+swe_agent,SWE-agent,Coding,Free,None (Free / No card needed),False
+tabbyml,TabbyML,Coding,Free,None (Free / No card needed),False
+coderabbit,CodeRabbit,Coding,Paid plans,"Egyptian Visa, International card",False
+pr_agent,PR-Agent (Qodo),Coding,Free,None (Free / No card needed),False
+v0_dev,v0 by Vercel,Coding,Paid plans,"Egyptian Visa, International card",False
+bolt_new,Bolt.new,Coding,Paid plans,"Egyptian Visa, International card",False
+flux_schnell,FLUX.1 [schnell],Image & Design,Free,None (Free / No card needed),False
+flux_dev,FLUX.1 [dev],Image & Design,Free,None (Free / No card needed),False
+whisperx,WhisperX,Audio,Free,None (Free / No card needed),False
+windsurf,Windsurf (Codeium),Coding,Paid plans,"Egyptian Visa, International card",False
+llamaindex,LlamaIndex,Agents & Automation,Free,None (Free / No card needed),False
+haystack,Haystack,Agents & Automation,Free,None (Free / No card needed),False
+pinokio,Pinokio,Coding,Free,None (Free / No card needed),False
+iopaint,IOPaint (Lama Cleaner),Image & Design,Free,None (Free / No card needed),False
+jenni_ai,Jenni AI,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+writefull,Writefull,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+krea_ai,Krea AI,Image & Design,Paid plans,"Egyptian Visa, International card",False
+pika_labs,Pika,Video,Paid plans,"Egyptian Visa, International card",False
+luma_dream_machine,Dream Machine (Luma AI),Video,Paid plans,"Egyptian Visa, International card",False
+obsidian_smart_connections,Smart Connections (Obsidian),Writing & Productivity,Free,None (Free / No card needed),False
+logseq_ai,Logseq,Writing & Productivity,Free,None (Free / No card needed),False
+scisummary,SciSummary,Research,Paid plans,International card,False
+audacity_ai,Audacity OpenVINO AI Plugins,Audio,Free,None (Free / No card needed),False
+appsmith_ai,Appsmith AI,Agents & Automation,Free,None (Free / No card needed),False
+tooljet_ai,ToolJet AI,Agents & Automation,Free,None (Free / No card needed),False
+trulens,TruLens,Research,Free,None (Free / No card needed),False
+helicone,Helicone,Agents & Automation,Free,None (Free / No card needed),False
+openpipe,OpenPipe,Data,Free,None (Free / No card needed),False
+superagi,SuperAGI,Agents & Automation,Free,None (Free / No card needed),False
+devika,Devika,Coding,Free,None (Free / No card needed),False
+lovable_dev,Lovable.dev,Coding,Paid plans,"Egyptian Visa, International card",False
+sqlai,SQLAI.ai,Data,Paid plans,"Egyptian Visa, International card",False
+postman_ai,Postman AI Assistant (Postbot),Coding,Paid plans,"Egyptian Visa, International card",False
+mosec,Mosec,Coding,Free,None (Free / No card needed),False
+bark_audio,Bark,Audio,Free,None (Free / No card needed),False
+musicgen,MusicGen,Audio,Free,None (Free / No card needed),False
+kokoro_tts,Kokoro-82M,Audio,Free,None (Free / No card needed),False
+florence2,Florence-2,Image & Design,Free,None (Free / No card needed),False
+bge_m3,BGE-M3 (BAAI),Research,Free,None (Free / No card needed),False
+bge_reranker,BGE-Reranker-v2-m3,Research,Free,None (Free / No card needed),False
+surya_ocr,Surya OCR,Research,Free,None (Free / No card needed),False
+marker_pdf,Marker,Research,Free,None (Free / No card needed),False
+nougat,Nougat (Meta AI),Research,Free,None (Free / No card needed),False
+smollm2,SmolLM2,Writing & Productivity,Free,None (Free / No card needed),False
+biomistral,BioMistral,Research,Free,None (Free / No card needed),False
+esmfold,ESMFold / ESM-3,Research,Free,None (Free / No card needed),False
+diffusers,Hugging Face Diffusers,Image & Design,Free,None (Free / No card needed),False
+gradio,Gradio,Coding,Free,None (Free / No card needed),False
+docling,Docling,Research,Free,None (Free / No card needed),False
+sam2,Segment Anything 2 (SAM 2),Image & Design,Free,None (Free / No card needed),False
+qdrant_db,Qdrant,Data,Free,None (Free / No card needed),False
+ollama,Ollama,Coding,Free,None (Free / No card needed),False
+llama_cpp,llama.cpp,Coding,Free,None (Free / No card needed),False
+vllm,vLLM,Coding,Free,None (Free / No card needed),False
+open_webui,Open WebUI,Writing & Productivity,Free,None (Free / No card needed),False
+lm_studio,LM Studio,Writing & Productivity,Free,None (Free / No card needed),False
+jan_ai,Jan,Writing & Productivity,Free,None (Free / No card needed),False
+comfyui,ComfyUI,Image & Design,Free,None (Free / No card needed),False
+fooocus,Fooocus,Image & Design,Free,None (Free / No card needed),False
+whisper_cpp,whisper.cpp,Audio,Free,None (Free / No card needed),False
+piper_tts,Piper TTS,Audio,Free,None (Free / No card needed),False
+librechat,LibreChat,Writing & Productivity,Free,None (Free / No card needed),False
+upscayl,Upscayl,Image & Design,Free,None (Free / No card needed),False
+anything_llm,AnythingLLM,Research,Free,None (Free / No card needed),False
+unsloth,Unsloth,Coding,Free,None (Free / No card needed),False
+litellm,LiteLLM,Coding,Free,None (Free / No card needed),False
+whisper_turbo,Whisper-large-v3-turbo,Audio,Free,None (Free / No card needed),False
+chroma_db,ChromaDB,Data,Free,None (Free / No card needed),False
+moondream,Moondream 2,Image & Design,Free,None (Free / No card needed),False
+fastembed,FastEmbed,Research,Free,None (Free / No card needed),False
+pymupdf4llm,PyMuPDF4LLM,Research,Free,None (Free / No card needed),False
+tei_server,Text Embeddings Inference (TEI),Data,Free,None (Free / No card needed),False
+openfold_ai,OpenFold,Research,Free,None (Free / No card needed),False
+sglang,SGLang,Coding,Free,None (Free / No card needed),False
+llamafile,llamafile,Coding,Free,None (Free / No card needed),False
+privategpt,PrivateGPT,Research,Free,None (Free / No card needed),False
+khoj_ai,Khoj,Writing & Productivity,Paid plans,"Egyptian Visa, International card",False
+f5_tts,F5-TTS,Audio,Free,None (Free / No card needed),False
+goose_dev,Goose,Coding,Free,None (Free / No card needed),False
+activepieces,Activepieces,Agents & Automation,Free,None (Free / No card needed),False
+semantic_kernel,Semantic Kernel,Agents & Automation,Free,None (Free / No card needed),False
+asreview,ASReview LAB,Research,Free,None (Free / No card needed),False
+researchrabbit,ResearchRabbit,Research,Paid plans,"Egyptian Visa, International card",False
+scite,Scite.ai,Research,Paid plans,"Egyptian Visa, International card",False
+litmaps,Litmaps,Research,Paid plans,"Egyptian Visa, International card",False
+scispace,SciSpace (Typeset),Research,Paid plans,"Egyptian Visa, International card",False
+rayyan,Rayyan,Research,Paid plans,"Egyptian Visa, International card",False
+paperqa,PaperQA,Research,Free,None (Free / No card needed),False
+colabfold,ColabFold (AlphaFold 2/3 Accelerator),Research,Free,None (Free / No card needed),False
+chemcrow,ChemCrow,Research,Free,None (Free / No card needed),False
+openalex,OpenAlex,Research,Free,None (Free / No card needed),False
+inciteful,Inciteful,Research,Free,None (Free / No card needed),False
+scholarcy,Scholarcy,Research,Paid plans,"Egyptian Visa, International card",False
