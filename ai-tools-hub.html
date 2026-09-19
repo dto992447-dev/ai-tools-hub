@@ -856,18 +856,24 @@ select{
 <style>
 /* ---------- Comparison ---------- */
 .cmptray{
-  position:fixed;left:50%;transform:translate(-50%,140%);bottom:18px;z-index:70;
-  background:var(--navy-800);color:#fff;border-radius:var(--r-lg);box-shadow:var(--shadow-3);
-  display:flex;align-items:center;gap:16px;padding:12px 14px 12px 20px;width:min(680px,calc(100vw - 32px));
-  transition:transform .3s cubic-bezier(.2,.8,.3,1)
+  position:fixed;left:50%;transform:translate(-50%,160%);bottom:22px;z-index:900;
+  background:#0B1C33;color:#fff;border-radius:14px;box-shadow:0 20px 45px rgba(10,25,47,.45),0 0 0 1px rgba(255,255,255,.15);
+  display:flex;align-items:center;gap:16px;padding:12px 20px;width:min(720px,calc(100vw - 32px));
+  transition:transform .35s cubic-bezier(.16,1,.3,1), opacity .3s ease;
+  backdrop-filter:blur(12px);
 }
 .cmptray.is-up{transform:translate(-50%,0)}
-.cmptray__txt{font-size:14px;color:#C9D8EC;flex:1;min-width:0}
-.cmptray__txt b{color:#fff;display:block;font-size:14.5px;margin-bottom:2px}
-.cmptray .btn{border-color:rgba(255,255,255,.3);background:transparent;color:#fff}
-.cmptray .btn:hover{border-color:var(--butter-300);color:var(--butter-300)}
-.cmptray .btn--gold{background:var(--gold-500);border-color:var(--gold-500);color:#2A1D00;font-weight:600}
-.cmptray .btn--gold:hover{background:var(--butter-300);border-color:var(--butter-300);color:#2A1D00}
+.cmptray__icon{
+  display:flex;align-items:center;justify-content:center;
+  width:36px;height:36px;border-radius:9px;background:rgba(218,165,32,0.2);
+  color:var(--butter-300);flex-shrink:0;font-size:18px;
+}
+.cmptray__txt{font-size:13.5px;color:#C9D8EC;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cmptray__txt b{color:#fff;display:block;font-size:14.5px;margin-bottom:2px;font-weight:600}
+.cmptray .btn{border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,0.06);color:#fff;border-radius:8px;padding:8px 16px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s ease}
+.cmptray .btn:hover{border-color:var(--butter-300);color:var(--butter-300);background:rgba(255,255,255,.12)}
+.cmptray .btn--gold{background:var(--gold-500);border-color:var(--gold-500);color:#1A1300;font-weight:600}
+.cmptray .btn--gold:hover{background:var(--butter-300);border-color:var(--butter-300);color:#1A1300}
 @media (max-width:560px){
   .cmptray{flex-wrap:wrap;padding:12px 14px}
   .cmptray__txt{flex:1 0 100%}
@@ -1293,9 +1299,10 @@ table.cmptable tr:last-child th,table.cmptable tr:last-child td{border-bottom:0}
 
 <!-- ============ COMPARISON TRAY ============ -->
 <div class="cmptray" id="cmpTray" role="status" aria-live="polite">
+  <div class="cmptray__icon">⚖️</div>
   <div class="cmptray__txt"><b id="cmpCount">0 tools selected</b><span id="cmpNames"></span></div>
-  <button class="btn" id="cmpClear">Clear</button>
-  <a class="btn btn--gold" href="#compare" id="cmpGo">Compare</a>
+  <button class="btn" id="cmpClear" type="button">Clear</button>
+  <a class="btn btn--gold" href="#compare" id="cmpGo">View comparison &darr;</a>
 </div>
 
 <!-- ============ DETAILS MODAL ============ -->
@@ -20988,30 +20995,62 @@ const COST_STRATEGIES = [
   function renderCompare() {
     const picks = state.compare.map(id => TOOLS.find(t => t.id === id)).filter(Boolean);
     const out = $("#compareOut");
+    const tray = $("#cmpTray");
+    const cmpCount = $("#cmpCount");
+    const cmpNames = $("#cmpNames");
+    const cmpGo = $("#cmpGo");
+
+    if (tray) {
+      if (picks.length > 0) {
+        tray.classList.add("is-up");
+        if (cmpCount) {
+          cmpCount.textContent = `${picks.length} of 4 tool${picks.length === 1 ? "" : "s"} selected for comparison`;
+        }
+        if (cmpNames) {
+          cmpNames.textContent = " — " + picks.map(p => p.name).join(" vs ");
+        }
+        if (cmpGo) {
+          cmpGo.innerHTML = `View comparison (${picks.length}) &darr;`;
+        }
+      } else {
+        tray.classList.remove("is-up");
+        if (cmpCount) cmpCount.textContent = "0 tools selected";
+        if (cmpNames) cmpNames.textContent = "";
+        if (cmpGo) cmpGo.innerHTML = "View comparison &darr;";
+      }
+    }
 
     if (!picks.length) {
       out.innerHTML = `
         <div class="cmpempty">
           <h3>Nothing selected yet</h3>
-          <p>Tick <strong>Compare</strong> on any card in the directory above and the table will
-             build here. Up to four tools can be compared side-by-side.</p>
+          <p>Tick <strong>Compare</strong> on any tool card in the directory above (select up to 4 tools) to generate an instant side-by-side technical evaluation matrix across 15+ benchmark and pricing criteria.</p>
         </div>`;
     } else {
       out.innerHTML = `
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:10px">
+          <div style="font-size:14px;color:var(--ink-soft)">Comparing <strong style="color:var(--navy-900)">${picks.length}</strong> of 4 tools side-by-side:</div>
+          <button type="button" id="tableClearAll" style="font-size:12.5px;padding:6px 14px;border:1px solid var(--line-strong);background:var(--paper);border-radius:6px;cursor:pointer;color:var(--ink);font-weight:500">Clear comparison</button>
+        </div>
         <div class="tablewrap">
           <table class="cmptable">
             <thead>
               <tr>
-                <th scope="col">Criterion</th>
-                ${picks.map(t => `<th scope="col">${esc(t.name)}<br>
+                <th scope="col" style="min-width:180px;background:var(--navy-900);color:#fff">Criterion</th>
+                ${picks.map(t => `<th scope="col" style="min-width:240px;background:var(--navy-800);color:#fff">
+                  <div style="font-size:16px;font-weight:700;color:var(--butter-300);margin-bottom:2px">${esc(t.name)}</div>
+                  <div style="font-size:12px;color:#C9D8EC;font-weight:400;margin-bottom:8px">${esc(t.vendor)} (${esc(t.country || "Global")})</div>
                   <button type="button" class="linkbtn" data-uncompare="${t.id}"
-                    style="color:var(--butter-300);font-weight:400;font-size:12px">Remove</button></th>`).join("")}
+                    style="color:#FCA5A5;font-weight:500;font-size:12px;display:inline-flex;align-items:center;gap:3px;cursor:pointer">
+                    &times; Remove
+                  </button>
+                </th>`).join("")}
               </tr>
             </thead>
             <tbody>
               ${CMP_ROWS.map(([label, fn]) => `
                 <tr>
-                  <th scope="row">${label}</th>
+                  <th scope="row" style="background:#F8FAFC;font-weight:600;color:var(--navy-900)">${label}</th>
                   ${picks.map(t => `<td>${fn(t)}</td>`).join("")}
                 </tr>`).join("")}
             </tbody>
@@ -21023,6 +21062,14 @@ const COST_STRATEGIES = [
           toggleCompare(btn.dataset.uncompare);
         });
       });
+      const tClear = $("#tableClearAll");
+      if (tClear) {
+        tClear.addEventListener("click", () => {
+          state.compare = [];
+          renderCompare();
+          renderGrid();
+        });
+      }
     }
   }
 
@@ -21325,6 +21372,27 @@ const COST_STRATEGIES = [
       renderGrid();
     });
 
+    // Compare tray buttons
+    const cmpClear = $("#cmpClear");
+    if (cmpClear) {
+      cmpClear.addEventListener("click", () => {
+        state.compare = [];
+        renderCompare();
+        renderGrid();
+      });
+    }
+
+    const cmpGo = $("#cmpGo");
+    if (cmpGo) {
+      cmpGo.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = $("#compare");
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    }
+
     // Grid event delegation (Details click + Compare toggle)
     $("#toolGrid").addEventListener("click", (e) => {
       const dBtn = e.target.closest("[data-details]");
@@ -21335,6 +21403,12 @@ const COST_STRATEGIES = [
       const cmpBox = e.target.closest('input[data-compare]');
       if (cmpBox) {
         toggleCompare(cmpBox.dataset.compare);
+        return;
+      }
+      const cmpLabel = e.target.closest('label.cmp');
+      if (cmpLabel && !e.target.closest('input')) {
+        const inp = cmpLabel.querySelector('input[data-compare]');
+        if (inp) toggleCompare(inp.dataset.compare);
       }
     });
 
